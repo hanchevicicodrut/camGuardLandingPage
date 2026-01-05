@@ -13,7 +13,7 @@ export default function Footer() {
                     <a href="#" className="hover:text-white">
                         Terms of Service
                     </a>
-                    <a href="mailto:contact@camguard.app" className="hover:text-white">
+                    <a href="mailto:support@camguard.app" className="hover:text-white">
                         Contact
                     </a>
                 </div>
