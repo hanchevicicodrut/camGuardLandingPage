@@ -1,4 +1,5 @@
-import {event as gaEvent} from "@/lib/ga";
+import TrackedLink from "@/components/TrackedLink";
+import TrackedButton from "@/components/TrackedButton";
 
 
 function redirectToStore() {
@@ -26,20 +27,15 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-            <a
+            <TrackedLink href="#waitlist" label="Hero - Get Started Free"
+                         className="px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700"
+                         children="Get Started Free">
+            </TrackedLink>
 
-                href="#waitlist"
-                className="px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700"
-            >
-                Get Started Free
-            </a>
-
-            <button
-
-                className="px-6 py-3 rounded-xl border border-gray-300 font-semibold hover:bg-gray-100"
-            >
-                Download App
-            </button>
+            <TrackedButton action="download"
+                           className="px-6 py-3 rounded-xl border border-gray-300 font-semibold hover:bg-gray-100"
+                           label="Hero - Download App" children="Download App"
+            ></TrackedButton>
         </div>
     </section>);
 }

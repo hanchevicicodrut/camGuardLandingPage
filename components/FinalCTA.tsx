@@ -1,4 +1,5 @@
-import {event as gaEvent} from "@/lib/ga";
+import TrackedLink from "@/components/TrackedLink";
+import TrackedButton from "@/components/TrackedButton";
 
 function redirectToStore() {
     const userAgent = navigator.userAgent || navigator.vendor;
@@ -26,20 +27,15 @@ export default function FinalCTA() {
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-                <button
+                <TrackedButton action="download"
+                               className="px-8 py-4 rounded-xl bg-white text-blue-600 font-semibold hover:bg-gray-100"
+                               label="Final CTA - Download App" children="Download App"
+                ></TrackedButton>
 
-                    className="px-8 py-4 rounded-xl bg-white text-blue-600 font-semibold hover:bg-gray-100"
-                >
-                    Download the App
-                </button>
-
-                <a
-
-                    href="#waitlist"
-                    className="px-8 py-4 rounded-xl border border-white font-semibold hover:bg-blue-500"
-                >
-                    Get Started Free
-                </a>
+                <TrackedLink href="#waitlist" label="Final CTA - Get Started Free"
+                             className="px-8 py-4 rounded-xl border border-white font-semibold hover:bg-blue-500"
+                             children="Get Started Free">
+                </TrackedLink>
             </div>
         </section>
     );

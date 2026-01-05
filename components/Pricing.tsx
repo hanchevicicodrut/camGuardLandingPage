@@ -1,4 +1,4 @@
-import {event as gaEvent} from "@/lib/ga";
+import TrackedLink from "@/components/TrackedLink";
 
 export default function Pricing() {
     return (
@@ -27,20 +27,10 @@ export default function Pricing() {
                             <li>✔ Person detection</li>
                             <li>✔ Instant notifications</li>
                         </ul>
-
-                        <a
-                            onClick={()=>
-                            gaEvent({
-                                action: "get_started_click",
-                                category: "CTA",
-                                label: "Pricing - Get Started Free"
-                            })
-                        }
-                            href="#waitlist"
-                            className="mt-8 inline-block px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700"
-                        >
-                            Get Started Free
-                        </a>
+                        <TrackedLink href="#waitlist" label="Pricing - Get Started Free"
+                                     className="mt-8 inline-block px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700"
+                                     children="Get Started Free">
+                        </TrackedLink>
                     </div>
 
                     {/* Premium Plan */}
@@ -57,20 +47,11 @@ export default function Pricing() {
                             <li>✔ Extended history</li>
                             <li>✔ Advanced alerts</li>
                         </ul>
+                        <TrackedLink href="#waitlist" label="Pricing - Join Waitlist"
+                                     className="mt-8 inline-block px-6 py-3 rounded-xl border border-gray-300 font-semibold hover:bg-gray-100"
+                                     children="Join Waitlist">
+                        </TrackedLink>
 
-                        <a
-                            onClick={()=>{
-                                gaEvent({
-                                    action: "join_waiting_click",
-                                    category: "CTA",
-                                    label: "Pricing - Join Waitlist"
-                                })
-                            }}
-                            href="#waitlist"
-                            className="mt-8 inline-block px-6 py-3 rounded-xl border border-gray-300 font-semibold hover:bg-gray-100"
-                        >
-                            Join Waitlist
-                        </a>
                     </div>
                 </div>
             </div>
