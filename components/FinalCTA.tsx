@@ -1,11 +1,12 @@
 "use client";
+import {event as gaEvent} from "@/lib/ga";
 
 function redirectToStore() {
     const userAgent = navigator.userAgent || navigator.vendor;
 
     if (/android/i.test(userAgent)) {
         window.location.href =
-            "https://play.google.com/store/apps/details?id=com.camguard";
+            "https://play.google.com/store/apps/details?id=com.camGuard.app";
     } else if (/iPad|iPhone|iPod/.test(userAgent)) {
         window.location.href =
             "https://apps.apple.com/app/idXXXXXXXXX";
@@ -27,13 +28,27 @@ export default function FinalCTA() {
 
             <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
                 <button
-                    onClick={redirectToStore}
+                    onClick={() => {
+                        gaEvent({
+                            action: "download_app_click",
+                            category: "CTA",
+                            label: "Final CTA - Download App",
+                        });
+                        redirectToStore();
+                    }}
                     className="px-8 py-4 rounded-xl bg-white text-blue-600 font-semibold hover:bg-gray-100"
                 >
                     Download the App
                 </button>
 
                 <a
+                    onClick={() =>
+                        gaEvent({
+                            action: "get_started_click",
+                            category: "CTA",
+                            label: "Final CTA - Get Started Free"
+                        })
+                    }
                     href="#waitlist"
                     className="px-8 py-4 rounded-xl border border-white font-semibold hover:bg-blue-500"
                 >

@@ -1,10 +1,12 @@
 "use client";
+import {event as gaEvent} from "@/lib/ga";
+
 
 function redirectToStore() {
     const userAgent = navigator.userAgent || navigator.vendor;
     if (/android/i.test(userAgent)) {
         window.location.href =
-            "https://play.google.com/store/apps/details?id=com.camguard";
+            "https://play.google.com/store/apps/details?id=com.camGuard.app";
     } else if (/iPad|iPhone|iPod/.test(userAgent)) {
         window.location.href =
             "https://apps.apple.com/app/idXXXXXXXXX";
@@ -26,6 +28,13 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
             <a
+                onClick={() =>
+                    gaEvent({
+                        action: "get_started_click",
+                        category: "CTA",
+                        label: "Hero - Get Started Free",
+                    })
+                }
                 href="#waitlist"
                 className="px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700"
             >
@@ -33,7 +42,15 @@ export default function Hero() {
             </a>
 
             <button
-                onClick={redirectToStore}
+                onClick={() => {
+                    gaEvent({
+                        action: "hero_download_click",
+                        category: "CTA",
+                        label: "Hero - Download App",
+                    });
+                    redirectToStore();
+                }
+                }
                 className="px-6 py-3 rounded-xl border border-gray-300 font-semibold hover:bg-gray-100"
             >
                 Download App

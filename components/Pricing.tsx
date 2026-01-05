@@ -1,3 +1,5 @@
+import {event as gaEvent} from "@/lib/ga";
+
 export default function Pricing() {
     return (
         <section className="px-6 py-24">
@@ -27,6 +29,13 @@ export default function Pricing() {
                         </ul>
 
                         <a
+                            onClick={()=>
+                            gaEvent({
+                                action: "get_started_click",
+                                category: "CTA",
+                                label: "Pricing - Get Started Free"
+                            })
+                        }
                             href="#waitlist"
                             className="mt-8 inline-block px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700"
                         >
@@ -50,6 +59,13 @@ export default function Pricing() {
                         </ul>
 
                         <a
+                            onClick={()=>{
+                                gaEvent({
+                                    action: "join_waiting_click",
+                                    category: "CTA",
+                                    label: "Pricing - Join Waitlist"
+                                })
+                            }}
                             href="#waitlist"
                             className="mt-8 inline-block px-6 py-3 rounded-xl border border-gray-300 font-semibold hover:bg-gray-100"
                         >
