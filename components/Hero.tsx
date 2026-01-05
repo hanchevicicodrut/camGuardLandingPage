@@ -1,4 +1,3 @@
-"use client";
 import {event as gaEvent} from "@/lib/ga";
 
 
@@ -28,13 +27,7 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
             <a
-                onClick={() =>
-                    gaEvent({
-                        action: "get_started_click",
-                        category: "CTA",
-                        label: "Hero - Get Started Free",
-                    })
-                }
+
                 href="#waitlist"
                 className="px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700"
             >
@@ -42,15 +35,7 @@ export default function Hero() {
             </a>
 
             <button
-                onClick={() => {
-                    gaEvent({
-                        action: "hero_download_click",
-                        category: "CTA",
-                        label: "Hero - Download App",
-                    });
-                    redirectToStore();
-                }
-                }
+
                 className="px-6 py-3 rounded-xl border border-gray-300 font-semibold hover:bg-gray-100"
             >
                 Download App
