@@ -40,6 +40,7 @@ export default function RootLayout({
               page_path: window.location.pathname,
             });
           `}
+
             </Script>
         </head>
         <body
