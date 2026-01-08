@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type {Metadata} from "next";
 
 export const metadata: Metadata = {
     title: "Download CamGuard – Android & iOS",
@@ -20,35 +20,28 @@ export default function DownloadPage() {
             </p>
 
             <div className="mt-12 flex flex-col sm:flex-row justify-center gap-6">
-                {/* Android */}
                 <a
                     href="https://play.google.com/store/apps/details?id=com.camGuard.app"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700"
                 >
-                    <Image
-                        src="/android.svg"
-                        alt="Android"
-                        width={24}
-                        height={24}
+                    <img
+                        src="/gpbadge_en.svg"
+                        alt="Get it on Google Play"
+                        className="h-14"
                     />
-                    Download for Android
                 </a>
 
                 <a
                     href="https://apps.apple.com/app/idXXXXXXXXX"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-black text-white font-semibold hover:bg-gray-800"
                 >
-                    <Image
-                        src="/apple.svg"
-                        alt="iOS"
-                        width={24}
-                        height={24}
+                    <img
+                        src="/asbadge_en.svg"
+                        alt="Download on the App Store"
+                        className="h-14"
                     />
-                    Download for iOS
                 </a>
             </div>
 
