@@ -17,6 +17,13 @@ export const metadata: Metadata = {
     title: "CamGuard – Smart Camera Monitoring App",
     description:
         "CamGuard detects people in your camera feed and sends instant alerts to your phone. Easy setup. Free to start.",
+    alternates: {
+        languages: {
+            "en": "https://camguard.app/",
+            "ro": "https://camguard.app/ro",
+            "x-default": "https://camguard.app/",
+        },
+    },
 };
 
 export default function RootLayout({
