@@ -10,7 +10,7 @@ function redirectToStore() {
         window.location.href =
             "https://apps.apple.com/app/idXXXXXXXXX";
     } else {
-        window.location.href = "/download";
+        window.location.href = "/download/ro";
     }
 }
 
@@ -39,6 +39,7 @@ export default function HeroRo() {
                     action="download"
                     className="px-6 py-3 rounded-xl border border-gray-300 font-semibold hover:bg-gray-100"
                     label="Hero - Descarcă Aplicația"
+                    language="ro"
                     children="Descarcă Aplicația"
                 >
                 </TrackedButton>

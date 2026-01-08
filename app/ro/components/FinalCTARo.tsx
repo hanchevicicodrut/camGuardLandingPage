@@ -11,7 +11,7 @@ function redirectToStore() {
         window.location.href =
             "https://apps.apple.com/app/idXXXXXXXXX";
     } else {
-        window.location.href = "/download";
+        window.location.href = "/download/ro";
     }
 }
 
@@ -31,6 +31,7 @@ export default function FinalCTARo() {
                     action="download"
                     className="px-8 py-4 rounded-xl bg-white text-blue-600 font-semibold hover:bg-gray-100"
                     label="Final CTA - Descarcă Aplicația"
+                    language="ro"
                     children="Descarcă Aplicația"
                 >
                 </TrackedButton>

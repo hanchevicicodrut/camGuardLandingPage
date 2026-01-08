@@ -9,10 +9,11 @@ type Props = {
     action : ActionType;
     href? : string;
     className: string;
+    language?: string;
     children: React.ReactNode
 }
 
-export default function TrackedButton({ label, action, href, className, children} : Props) {
+export default function TrackedButton({ label, action, href, className, language, children} : Props) {
     const handleClick = () => {
         event({
             action: "cta_click",
@@ -30,7 +31,11 @@ export default function TrackedButton({ label, action, href, className, children
                 window.location.href =
                     "https://apps.apple.com/app/idXXXXXXXXX";
             } else {
-                window.location.href = "/download";
+                if(language){
+                    window.location.href = `${language}/download/`;
+                }else{
+                    window.location.href = `/download/`;
+                }
             }
         }
 
