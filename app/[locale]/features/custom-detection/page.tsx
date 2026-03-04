@@ -12,14 +12,6 @@ import FinalCTA from "@/components/FinalCTA";
 export default function Home() {
     return (
         <main className="min-h-screen p-10">
-            <Hero/>
-            <HowItWorks/>
-            <Features/>
-            <UseCases/>
-            <AppPreview/>
-            <Pricing/>
-            <FinalCTA/>
-            <Waitlist/>
             <Footer/>
         </main>
     );
