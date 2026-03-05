@@ -201,8 +201,243 @@ const ro = {
             "Reolink",
             "ONVIF",
             "RTSP"
+
         ]
+    },
+    animalDetection: {
+
+        hero: {
+            title: "Detectare AI a Animalelor pentru Camere de Securitate",
+            subtitle:
+                "CamGuard detectează automat animale precum pisici, câini și animale sălbatice folosind modele AI avansate.",
+
+            ctaPrimary: "Începe Monitorizarea",
+            ctaSecondary: "Află Mai Mult",
+
+            trust: [
+                "Detectare bazată pe AI",
+                "Funcționează cu camere existente",
+                "Notificări inteligente"
+            ],
+
+            preview: {
+                cat: "Pisică detectată",
+                dog: "Câine detectat",
+                wildlife: "Animal sălbatic detectat"
+            }
+        },
+
+        selectAnimals: {
+            title: "Detectează Animalele Care Contează",
+
+            subtitle:
+                "Alege exact ce animale declanșează notificările și evită alertele inutile.",
+
+            animals: [
+                {
+                    icon: "🐱",
+                    title: "Detectare Pisici",
+                    description:
+                        "Primește notificări atunci când pisici apar în apropierea proprietății."
+                },
+                {
+                    icon: "🐶",
+                    title: "Detectare Câini",
+                    description:
+                        "Detectează câini care intră în zone restricționate."
+                },
+                {
+                    icon: "🦌",
+                    title: "Detectare Faună Sălbatică",
+                    description:
+                        "Identifică animale precum cerbi, vulpi sau ratoni."
+                },
+                {
+                    icon: "⚙️",
+                    title: "Filtre Personalizate",
+                    description:
+                        "Alege ce animale declanșează notificările."
+                }
+            ]
+        },
+        detectableAnimals: {
+
+            title: "Animale pe care CamGuard le poate detecta",
+
+            subtitle:
+                "Modelele noastre AI pot recunoaște o gamă largă de animale folosind computer vision.",
+
+            animals: [
+                { icon: "🐱", name: "Pisici" },
+                { icon: "🐶", name: "Câini" },
+                { icon: "🦌", name: "Cerbi" },
+                { icon: "🦊", name: "Vulpi" },
+                { icon: "🦝", name: "Ratoni" },
+                { icon: "🐻", name: "Urși" },
+                { icon: "🐦", name: "Păsări" },
+                { icon: "🐺", name: "Lupi" },
+                { icon: "🐗", name: "Mistreți" },
+                { icon: "🐐", name: "Capre" },
+                { icon: "🐄", name: "Vaci" },
+                { icon: "🐑", name: "Oi" }
+            ]
+
+        },
+        howItWorks: {
+
+            title: "Cum Funcționează Detectarea AI a Animalelor",
+
+            subtitle:
+                "CamGuard folosește modele avansate de computer vision pentru a analiza imaginile camerelor și a identifica animale în timp real.",
+
+            steps: [
+                {
+                    number: "01",
+                    title: "Camera Detectează Mișcarea",
+                    description:
+                        "Camera ta de securitate detectează mișcare în zona monitorizată."
+                },
+                {
+                    number: "02",
+                    title: "AI Analizează Imaginea",
+                    description:
+                        "Modelul nostru AI procesează cadrul video și identifică obiecte precum animale."
+                },
+                {
+                    number: "03",
+                    title: "Primești o Notificare",
+                    description:
+                        "Primești o notificare instant atunci când un animal selectat este detectat."
+                }
+            ]
+
+        },
+        useCases: {
+
+            title: "Unde Este Utilă Detectarea Animalelor",
+
+            subtitle:
+                "Detectarea animalelor cu AI ajută la protejarea proprietății și monitorizarea faunei.",
+
+            items: [
+                {
+                    icon: "🏡",
+                    title: "Case și Grădini",
+                    description:
+                        "Detectează animale care intră în curte sau grădină înainte să producă pagube."
+                },
+                {
+                    icon: "🚜",
+                    title: "Ferme și Animale",
+                    description:
+                        "Monitorizează fermele și detectează prădători sau animale sălbatice."
+                },
+                {
+                    icon: "🏕",
+                    title: "Cabane și Proprietăți Izolate",
+                    description:
+                        "Află când apar animale în jurul cabanelor sau caselor de vacanță."
+                },
+                {
+                    icon: "🌲",
+                    title: "Monitorizare Faună",
+                    description:
+                        "Observă activitatea animalelor sălbatice din jurul proprietății."
+                }
+            ]
+
+        },
+        benefits: {
+
+            title: "Beneficiile Detectării AI a Animalelor",
+
+            subtitle:
+                "CamGuard te ajută să monitorizezi activitatea animalelor și să reduci alertele false.",
+
+            items: [
+                {
+                    icon: "🔔",
+                    title: "Mai Puține Alerte False",
+                    description:
+                        "Primești notificări doar când sunt detectate animale specifice."
+                },
+                {
+                    icon: "⚡",
+                    title: "Notificări Instant",
+                    description:
+                        "Primești alerte în timp real când apar animale."
+                },
+                {
+                    icon: "🧠",
+                    title: "Recunoaștere AI Inteligentă",
+                    description:
+                        "Modelele AI identifică cu precizie animalele din imaginile camerei."
+                },
+                {
+                    icon: "🌙",
+                    title: "Monitorizare 24/7",
+                    description:
+                        "Funcționează zi și noapte cu camere care suportă night vision."
+                }
+            ]
+
+        },
+        faq: {
+
+            title: "Întrebări Frecvente despre Detectarea Animalelor",
+
+            subtitle:
+                "Răspunsuri la cele mai frecvente întrebări despre detectarea animalelor cu AI.",
+
+            items: [
+                {
+                    question: "Pot camerele de securitate să detecteze animale?",
+                    answer:
+                        "Da. Sistemele bazate pe AI precum CamGuard pot identifica animale folosind computer vision."
+                },
+                {
+                    question: "Ce animale poate detecta CamGuard?",
+                    answer:
+                        "CamGuard poate recunoaște animale precum pisici, câini, cerbi, vulpi, ratoni și alte animale sălbatice."
+                },
+                {
+                    question: "Funcționează detectarea animalelor pe timp de noapte?",
+                    answer:
+                        "Da. Camerele cu night vision pot detecta animale atunci când sunt combinate cu AI."
+                },
+                {
+                    question: "Pot alege ce animale declanșează notificări?",
+                    answer:
+                        "Da. Poți selecta animale specifice precum pisici, câini sau animale sălbatice."
+                },
+                {
+                    question: "Am nevoie de camere speciale?",
+                    answer:
+                        "Nu. CamGuard funcționează cu multe camere IP existente."
+                }
+            ]
+
+        },
+        cta: {
+
+            title: "Începe Detectarea Animalelor Astăzi",
+
+            subtitle:
+                "Transformă camerele tale de securitate în sisteme inteligente de monitorizare a animalelor cu CamGuard.",
+
+            primaryButton: "Începe Monitorizarea",
+
+            secondaryButton: "Descoperă Funcțiile"
+
+        },
+        metadata: {
+            title: "Detectare AI a Animalelor pentru Camere de Securitate | CamGuard",
+            description:
+                "Detectează pisici, câini și animale sălbatice cu detectare AI. CamGuard trimite notificări inteligente când apar animale."
+        },
+
     }
 }
 
 export default ro;
+

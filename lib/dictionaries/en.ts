@@ -202,6 +202,238 @@ const en = {
             "ONVIF",
             "RTSP"
         ]
+    },
+    animalDetection: {
+
+        hero: {
+            title: "AI Animal Detection for Security Cameras",
+            subtitle:
+                "CamGuard automatically detects animals such as cats, dogs, and wildlife using advanced AI vision models.",
+            ctaPrimary: "Start Monitoring",
+            ctaSecondary: "Learn More",
+
+            trust: [
+                "AI-powered detection",
+                "Works with existing cameras",
+                "Smart alerts"
+            ],
+
+            preview: {
+                cat: "Cat detected",
+                dog: "Dog detected",
+                wildlife: "Wildlife detected"
+            }
+        },
+
+        selectAnimals: {
+            title: "Detect the Animals That Matter to You",
+
+            subtitle:
+                "Choose exactly which animals trigger alerts and avoid unnecessary notifications.",
+
+            animals: [
+                {
+                    icon: "🐱",
+                    title: "Cat Detection",
+                    description:
+                        "Receive alerts when cats appear near your property."
+                },
+                {
+                    icon: "🐶",
+                    title: "Dog Detection",
+                    description:
+                        "Detect dogs entering restricted areas."
+                },
+                {
+                    icon: "🦌",
+                    title: "Wildlife Detection",
+                    description:
+                        "Identify wildlife such as deer, foxes, and raccoons."
+                },
+                {
+                    icon: "⚙️",
+                    title: "Custom Detection Filters",
+                    description:
+                        "Choose which animals trigger notifications."
+                }
+            ]
+        },
+        detectableAnimals: {
+
+            title: "Animals CamGuard Can Detect",
+
+            subtitle:
+                "Our AI models can recognize a wide range of animals using advanced computer vision.",
+
+            animals: [
+                { icon: "🐱", name: "Cats" },
+                { icon: "🐶", name: "Dogs" },
+                { icon: "🦌", name: "Deer" },
+                { icon: "🦊", name: "Foxes" },
+                { icon: "🦝", name: "Raccoons" },
+                { icon: "🐻", name: "Bears" },
+                { icon: "🐦", name: "Birds" },
+                { icon: "🐺", name: "Wolves" },
+                { icon: "🐗", name: "Wild Boars" },
+                { icon: "🐐", name: "Goats" },
+                { icon: "🐄", name: "Cattle" },
+                { icon: "🐑", name: "Sheep" }
+            ]
+
+        },
+        howItWorks: {
+
+            title: "How AI Animal Detection Works",
+
+            subtitle:
+                "CamGuard uses advanced computer vision models to analyze camera footage and identify animals in real time.",
+
+            steps: [
+                {
+                    number: "01",
+                    title: "Camera Detects Motion",
+                    description:
+                        "Your security camera captures movement in the monitored area."
+                },
+                {
+                    number: "02",
+                    title: "AI Analyzes the Image",
+                    description:
+                        "Our AI model processes the video frame and identifies objects such as animals."
+                },
+                {
+                    number: "03",
+                    title: "Smart Alert Is Sent",
+                    description:
+                        "You receive an instant notification when a selected animal is detected."
+                }
+            ]
+
+        },
+        useCases: {
+
+            title: "Where Animal Detection Is Most Useful",
+
+            subtitle:
+                "AI-powered animal detection helps protect property, monitor wildlife, and reduce unnecessary alerts.",
+
+            items: [
+                {
+                    icon: "🏡",
+                    title: "Homes and Gardens",
+                    description:
+                        "Detect animals entering your yard or garden before they cause damage."
+                },
+                {
+                    icon: "🚜",
+                    title: "Farms and Livestock",
+                    description:
+                        "Monitor farm areas and detect predators or wildlife near livestock."
+                },
+                {
+                    icon: "🏕",
+                    title: "Cabins and Remote Properties",
+                    description:
+                        "Stay informed about wildlife activity around cabins or vacation homes."
+                },
+                {
+                    icon: "🌲",
+                    title: "Wildlife Monitoring",
+                    description:
+                        "Observe wildlife behavior and movement around your property."
+                }
+            ]
+
+        },
+        benefits: {
+
+            title: "Benefits of AI Animal Detection",
+
+            subtitle:
+                "CamGuard helps you monitor wildlife activity and reduce unnecessary motion alerts.",
+
+            items: [
+                {
+                    icon: "🔔",
+                    title: "Fewer False Alerts",
+                    description:
+                        "Receive notifications only when specific animals are detected."
+                },
+                {
+                    icon: "⚡",
+                    title: "Instant Notifications",
+                    description:
+                        "Get real-time alerts directly on your phone when animals appear."
+                },
+                {
+                    icon: "🧠",
+                    title: "Smart AI Recognition",
+                    description:
+                        "Advanced AI models accurately identify animals in camera footage."
+                },
+                {
+                    icon: "🌙",
+                    title: "24/7 Monitoring",
+                    description:
+                        "Works day and night when paired with cameras that support night vision."
+                }
+            ]
+
+        },
+        faq: {
+
+            title: "Animal Detection FAQ",
+
+            subtitle:
+                "Answers to common questions about AI animal detection and wildlife monitoring.",
+
+            items: [
+                {
+                    question: "Can security cameras detect animals?",
+                    answer:
+                        "Yes. AI-powered systems like CamGuard can identify animals using computer vision and send alerts when wildlife or pets are detected."
+                },
+                {
+                    question: "What animals can CamGuard detect?",
+                    answer:
+                        "CamGuard can recognize many animals including cats, dogs, deer, foxes, raccoons and other wildlife depending on camera quality."
+                },
+                {
+                    question: "Does animal detection work at night?",
+                    answer:
+                        "Yes. Cameras with infrared night vision can still detect animals when combined with AI recognition."
+                },
+                {
+                    question: "Can I choose which animals trigger alerts?",
+                    answer:
+                        "Yes. CamGuard allows you to select specific animals such as cats, dogs or wildlife to receive notifications only when they appear."
+                },
+                {
+                    question: "Do I need special cameras for animal detection?",
+                    answer:
+                        "No. CamGuard works with many existing IP cameras and surveillance systems."
+                }
+            ]
+
+        },
+        cta: {
+
+            title: "Start Detecting Animals Today",
+
+            subtitle:
+                "Turn your existing security cameras into smart AI wildlife monitoring systems with CamGuard.",
+
+            primaryButton: "Start Monitoring",
+
+            secondaryButton: "Explore Features"
+
+        },
+        metadata: {
+            title: "AI Animal Detection for Security Cameras | CamGuard",
+            description:
+                "Detect cats, dogs and wildlife with AI-powered animal detection. CamGuard sends smart alerts when animals appear near your property."
+        },
+
     }
 }
 
