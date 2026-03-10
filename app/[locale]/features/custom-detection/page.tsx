@@ -6,10 +6,11 @@ import ObjectsDetectionCategories from "@/app/[locale]/features/custom-detection
 export async function generateMetadata({
                                            params,
                                        }: {
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
 
-    const isRO = params.locale === "ro";
+    const { locale } = await params;
+    const isRO = locale === "ro";
 
     return {
         title: isRO
@@ -21,7 +22,7 @@ export async function generateMetadata({
             : "CamGuard detects more than 80 object types including people, vehicles, animals and everyday objects using AI.",
 
         alternates: {
-            canonical: `/${params.locale}/object-detection`,
+            canonical: `/${locale}/object-detection`,
             languages: {
                 en: "/en/object-detection",
                 ro: "/ro/object-detection",
@@ -34,22 +35,19 @@ export async function generateMetadata({
 export default async function Page({
                                        params,
                                    }: {
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 }) {
 
-    const dict = await getDictionary(params.locale);
+    const { locale } = await params;
+
+    const dict = await getDictionary(locale);
 
     return (
         <main>
 
             <HeroCustomDetection dict={dict} />
 
-            {/* next sections */}
-            {/* <WhatIsObjectDetection dict={dict.customDetection} /> */}
             <ObjectsDetectionCategories dict={dict} />
-            {/* <UseCases dict={dict.customDetection} /> */}
-            {/* <HowDetectionWorks dict={dict.customDetection} /> */}
-            {/* <FAQ dict={dict.customDetection} /> */}
 
         </main>
     );
