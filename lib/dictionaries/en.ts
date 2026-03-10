@@ -434,7 +434,278 @@ const en = {
                 "Detect cats, dogs and wildlife with AI-powered animal detection. CamGuard sends smart alerts when animals appear near your property."
         },
 
+
+    },
+    carDetection: {
+        hero: {
+            title: "AI Car Detection for Security Cameras",
+            subtitle:
+                "Detect vehicles instantly with AI-powered camera monitoring. CamGuard sends smart alerts when cars enter your driveway, parking lot or property.",
+            primaryCTA: "Start Monitoring",
+            secondaryCTA: "Learn More",
+            detectionLabel: "Vehicle detected"
+        },
+
+        whatIsCarDetection: {
+            title: "What Is Car Detection?",
+            description:
+                "Car detection uses artificial intelligence to identify vehicles in a security camera feed. Instead of recording everything continuously, CamGuard analyzes the video stream and detects when a car or vehicle appears. This allows users to receive instant alerts when vehicles enter a driveway, parking area or private property."
+        },
+        whyVehicleDetection: {
+            title: "Why Vehicle Detection Matters",
+            subtitle:
+                "Smart vehicle detection helps you monitor important areas and receive alerts only when vehicles appear.",
+
+            driveway: {
+                title: "Driveway Monitoring",
+                description:
+                    "Know immediately when a car enters your driveway. Perfect for homes, private properties and gated entrances."
+            },
+
+            parking: {
+                title: "Parking Area Monitoring",
+                description:
+                    "Track vehicles entering or leaving parking spaces. Ideal for businesses, offices and residential buildings."
+            },
+
+            alerts: {
+                title: "Instant Notifications",
+                description:
+                    "Receive real-time alerts when vehicles are detected so you can react quickly to activity around your property."
+            }
+        },
+        useCases: {
+            title: "Common Use Cases for Car Detection",
+            subtitle:
+                "AI vehicle detection can improve security and monitoring across many environments.",
+
+            driveway: {
+                title: "Driveway Monitoring",
+                description:
+                    "Detect when vehicles enter your driveway and receive instant notifications."
+            },
+
+            parking: {
+                title: "Parking Lot Monitoring",
+                description:
+                    "Monitor vehicles entering and leaving parking spaces in real time."
+            },
+
+            business: {
+                title: "Business Security",
+                description:
+                    "Track vehicles arriving at offices, warehouses or commercial properties."
+            },
+
+            garage: {
+                title: "Garage Monitoring",
+                description:
+                    "Receive alerts when cars approach or enter your garage."
+            }
+        },
+        howItWorks: {
+            title: "How Car Detection Works",
+            subtitle:
+                "CamGuard uses artificial intelligence to analyze camera feeds and detect vehicles automatically.",
+
+            camera: {
+                title: "Camera Video Stream",
+                description:
+                    "Your security camera continuously sends video frames that are analyzed by the CamGuard system."
+            },
+
+            ai: {
+                title: "AI Vehicle Recognition",
+                description:
+                    "Our AI model processes each frame and detects vehicles such as cars, vans or trucks."
+            },
+
+            alerts: {
+                title: "Smart Alerts",
+                description:
+                    "When a vehicle is detected, CamGuard sends an instant notification so you can monitor the activity."
+            }
+        },
+        smartAlerts: {
+            title: "Smart Vehicle Alerts",
+            description:
+                "Receive instant notifications when vehicles are detected by your security cameras.",
+
+            feature1: "Real-time notifications when cars enter your property",
+            feature2: "Reduce false alerts by detecting only vehicles",
+            feature3: "Monitor activity from anywhere using your phone",
+
+            notificationLabel: "Vehicle detected"
+        },
+        whyCamGuard: {
+            title: "Why Choose CamGuard",
+            subtitle:
+                "CamGuard combines advanced AI detection with a simple monitoring experience.",
+
+            ai: {
+                title: "Advanced AI Detection",
+                description:
+                    "Our AI models detect vehicles accurately in real time."
+            },
+
+            speed: {
+                title: "Fast Notifications",
+                description:
+                    "Receive alerts instantly when vehicles appear in camera view."
+            },
+
+            mobile: {
+                title: "Monitor From Anywhere",
+                description:
+                    "Access your camera alerts and activity directly from your phone."
+            },
+
+            security: {
+                title: "Secure and Reliable",
+                description:
+                    "CamGuard protects your camera data while providing reliable detection."
+            }
+        },
+        faq: {
+            title: "Car Detection FAQ",
+
+            q1: {
+                question: "Can security cameras detect cars?",
+                answer:
+                    "Yes. AI-powered systems like CamGuard can detect vehicles in camera feeds and send alerts when a car appears."
+            },
+
+            q2: {
+                question: "How accurate is AI vehicle detection?",
+                answer:
+                    "Modern AI detection models can identify vehicles with very high accuracy by analyzing video frames in real time."
+            },
+
+            q3: {
+                question: "Can CamGuard detect parked cars?",
+                answer:
+                    "Yes. CamGuard can detect vehicles that enter or remain inside the camera view depending on the detection settings."
+            },
+
+            q4: {
+                question: "Does car detection work at night?",
+                answer:
+                    "Yes. Vehicle detection works with night vision cameras and low-light environments."
+            }
+        }
+
+    },
+    customDetection: {
+        hero: {
+
+            title: "AI Custom Object Detection for Security Cameras",
+
+            subtitle:
+                "Detect people, vehicles, animals and over 80 different objects directly from your camera feed. CamGuard analyzes video streams in real time and sends smart alerts when important objects appear.",
+
+            ctaPrimary: "Start Monitoring",
+
+            ctaSecondary: "See How It Works",
+
+            trust: [
+                "AI Powered Detection",
+                "80+ Detectable Objects",
+                "Real-Time Alerts"
+            ],
+
+            preview: {
+                title: "Camera Preview",
+                person: "Person detected",
+                car: "Vehicle detected",
+                dog: "Dog detected",
+                object: "Custom object detected"
+            }
+
+        },
+        objects: {
+
+            title: "Detect Over 80 Objects with AI",
+
+            subtitle:
+                "CamGuard can recognize dozens of objects in your camera feed, from vehicles and people to animals and everyday items.",
+
+            categories: [
+
+                {
+                    title: "People & Vehicles",
+                    description: "Monitor movement and vehicles around your property.",
+                    objects: [
+                        "Person",
+                        "Bicycle",
+                        "Car",
+                        "Motorbike",
+                        "Bus",
+                        "Truck",
+                        "Train"
+                    ]
+                },
+
+                {
+                    title: "Animals",
+                    description: "Detect pets and wildlife near your home or business.",
+                    objects: [
+                        "Dog",
+                        "Cat",
+                        "Horse",
+                        "Bird",
+                        "Cow",
+                        "Sheep",
+                        "Bear",
+                        "Elephant"
+                    ]
+                },
+
+                {
+                    title: "Electronics",
+                    description: "Track valuable electronic devices.",
+                    objects: [
+                        "Laptop",
+                        "Cell Phone",
+                        "Keyboard",
+                        "Remote",
+                        "TV Monitor",
+                        "Mouse"
+                    ]
+                },
+
+                {
+                    title: "Household Objects",
+                    description: "Recognize common objects inside buildings.",
+                    objects: [
+                        "Chair",
+                        "Sofa",
+                        "Bed",
+                        "Dining Table",
+                        "Clock",
+                        "Book"
+                    ]
+                },
+
+                {
+                    title: "Food & Everyday Items",
+                    description: "Identify food and small everyday items.",
+                    objects: [
+                        "Bottle",
+                        "Cup",
+                        "Apple",
+                        "Banana",
+                        "Pizza",
+                        "Cake"
+                    ]
+                }
+
+            ]
+
+        }
+
+
     }
+
 }
 
 export default en;

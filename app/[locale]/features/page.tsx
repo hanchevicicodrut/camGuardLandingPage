@@ -6,7 +6,6 @@ import Features from "@/components/Features";
 import UseCases from "@/components/UseCases";
 import AppPreview from "@/components/AppPreview";
 import Pricing from "@/components/Pricing";
-import Footer from "@/components/Footer";
 import FinalCTA from "@/components/FinalCTA";
 
 export async function generateMetadata({

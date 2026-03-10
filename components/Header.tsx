@@ -49,7 +49,7 @@ export default function Header({ locale }: HeaderProps) {
                             <DropdownLink href={`${basePath}/features/animal-detection`}>
                                 Animal Detection
                             </DropdownLink>
-                            <DropdownLink href={`${basePath}/features/vehicle-detection`}>
+                            <DropdownLink href={`${basePath}/features/car-detection`}>
                                 Vehicle Detection
                             </DropdownLink>
                             <DropdownLink href={`${basePath}/features/custom-detection`}>

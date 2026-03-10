@@ -268,18 +268,18 @@ const ro = {
                 "Modelele noastre AI pot recunoaște o gamă largă de animale folosind computer vision.",
 
             animals: [
-                { icon: "🐱", name: "Pisici" },
-                { icon: "🐶", name: "Câini" },
-                { icon: "🦌", name: "Cerbi" },
-                { icon: "🦊", name: "Vulpi" },
-                { icon: "🦝", name: "Ratoni" },
-                { icon: "🐻", name: "Urși" },
-                { icon: "🐦", name: "Păsări" },
-                { icon: "🐺", name: "Lupi" },
-                { icon: "🐗", name: "Mistreți" },
-                { icon: "🐐", name: "Capre" },
-                { icon: "🐄", name: "Vaci" },
-                { icon: "🐑", name: "Oi" }
+                {icon: "🐱", name: "Pisici"},
+                {icon: "🐶", name: "Câini"},
+                {icon: "🦌", name: "Cerbi"},
+                {icon: "🦊", name: "Vulpi"},
+                {icon: "🦝", name: "Ratoni"},
+                {icon: "🐻", name: "Urși"},
+                {icon: "🐦", name: "Păsări"},
+                {icon: "🐺", name: "Lupi"},
+                {icon: "🐗", name: "Mistreți"},
+                {icon: "🐐", name: "Capre"},
+                {icon: "🐄", name: "Vaci"},
+                {icon: "🐑", name: "Oi"}
             ]
 
         },
@@ -436,6 +436,233 @@ const ro = {
                 "Detectează pisici, câini și animale sălbatice cu detectare AI. CamGuard trimite notificări inteligente când apar animale."
         },
 
+
+    },
+    carDetection: {
+        hero: {
+            title: "Detectare Mașini cu AI pentru Camere de Supraveghere",
+            subtitle:
+                "Detectează vehicule automat folosind inteligența artificială. CamGuard trimite alerte atunci când o mașină intră în curte, parcare sau proprietate.",
+            primaryCTA: "Începe monitorizarea",
+            secondaryCTA: "Află mai mult",
+            detectionLabel: "Vehicul detectat"
+        },
+
+        whatIsCarDetection: {
+            title: "Ce este detectarea mașinilor?",
+            description:
+                "Detectarea mașinilor folosește inteligența artificială pentru a identifica vehiculele în fluxul video al unei camere de supraveghere. În loc să înregistreze permanent, CamGuard analizează imaginea și detectează atunci când apare o mașină sau un vehicul. Astfel, utilizatorii primesc alerte instant când un vehicul intră în curte, parcare sau pe proprietate."
+        },
+        whyVehicleDetection: {
+            title: "De ce este importantă detectarea vehiculelor",
+            subtitle:
+                "Detectarea inteligentă a vehiculelor te ajută să monitorizezi zone importante și să primești alerte doar atunci când apar mașini.",
+
+            driveway: {
+                title: "Monitorizarea intrării în curte",
+                description:
+                    "Află imediat când o mașină intră în curte. Ideal pentru locuințe, proprietăți private și intrări securizate."
+            },
+
+            parking: {
+                title: "Monitorizarea parcărilor",
+                description:
+                    "Urmărește vehiculele care intră sau ies din parcare. Perfect pentru companii, birouri și clădiri rezidențiale."
+            },
+
+            alerts: {
+                title: "Notificări instant",
+                description:
+                    "Primește notificări în timp real atunci când sunt detectate vehicule pentru a reacționa rapid la activitatea din jurul proprietății."
+            }
+        },
+        useCases: {
+            title: "Utilizări frecvente pentru detectarea mașinilor",
+            subtitle:
+                "Detectarea vehiculelor cu AI îmbunătățește securitatea și monitorizarea în multe situații.",
+
+            driveway: {
+                title: "Monitorizarea intrării în curte",
+                description:
+                    "Detectează când vehiculele intră în curte și primește notificări instant."
+            },
+
+            parking: {
+                title: "Monitorizarea parcărilor",
+                description:
+                    "Urmărește vehiculele care intră și ies din parcări în timp real."
+            },
+
+            business: {
+                title: "Securitate pentru afaceri",
+                description:
+                    "Monitorizează vehiculele care ajung la birouri, depozite sau proprietăți comerciale."
+            },
+
+            garage: {
+                title: "Monitorizarea garajului",
+                description:
+                    "Primește alerte atunci când mașinile se apropie sau intră în garaj."
+            }
+        },
+        howItWorks: {
+            title: "Cum funcționează detectarea mașinilor",
+            subtitle:
+                "CamGuard folosește inteligența artificială pentru a analiza fluxul video al camerelor și a detecta automat vehicule.",
+
+            camera: {
+                title: "Fluxul video al camerei",
+                description:
+                    "Camera de supraveghere trimite continuu cadre video care sunt analizate de sistemul CamGuard."
+            },
+
+            ai: {
+                title: "Recunoaștere vehicule cu AI",
+                description:
+                    "Modelul nostru AI procesează fiecare cadru și detectează vehicule precum mașini, camionete sau camioane."
+            },
+
+            alerts: {
+                title: "Alerte inteligente",
+                description:
+                    "Atunci când este detectat un vehicul, CamGuard trimite imediat o notificare pentru a monitoriza activitatea."
+            }
+        },
+        smartAlerts: {
+            title: "Alerte inteligente pentru vehicule",
+            description:
+                "Primește notificări instant atunci când camerele tale detectează vehicule.",
+
+            feature1: "Notificări în timp real când mașinile intră pe proprietate",
+            feature2: "Reducerea alertelor false prin detectarea doar a vehiculelor",
+            feature3: "Monitorizează activitatea de oriunde folosind telefonul",
+
+            notificationLabel: "Vehicul detectat"
+        },
+        whyCamGuard: {
+            title: "De ce să alegi CamGuard",
+            subtitle:
+                "CamGuard combină detectarea avansată cu AI și o experiență simplă de monitorizare.",
+
+            ai: {
+                title: "Detectare AI avansată",
+                description:
+                    "Modelele noastre AI detectează vehiculele cu acuratețe în timp real."
+            },
+
+            speed: {
+                title: "Notificări rapide",
+                description:
+                    "Primește alerte instant atunci când vehiculele apar în imaginea camerei."
+            },
+
+            mobile: {
+                title: "Monitorizare de oriunde",
+                description:
+                    "Accesează alertele și activitatea camerei direct de pe telefon."
+            },
+
+            security: {
+                title: "Sigur și fiabil",
+                description:
+                    "CamGuard protejează datele camerelor și oferă detectare stabilă."
+            }
+        },
+        faq: {
+            title: "Întrebări frecvente despre detectarea mașinilor",
+
+            q1: {
+                question: "Pot camerele de supraveghere detecta mașini?",
+                answer:
+                    "Da. Sistemele bazate pe inteligență artificială, precum CamGuard, pot detecta vehiculele în fluxul video și pot trimite alerte când apare o mașină."
+            },
+
+            q2: {
+                question: "Cât de precisă este detectarea vehiculelor cu AI?",
+                answer:
+                    "Modelele moderne de inteligență artificială pot identifica vehiculele cu o precizie foarte mare analizând cadrele video în timp real."
+            },
+
+            q3: {
+                question: "Poate CamGuard detecta mașinile parcate?",
+                answer:
+                    "Da. CamGuard poate detecta vehiculele care intră sau rămân în câmpul camerei, în funcție de setările de detecție."
+            },
+
+            q4: {
+                question: "Funcționează detectarea mașinilor pe timp de noapte?",
+                answer:
+                    "Da. Detectarea vehiculelor funcționează și cu camere cu vedere pe timp de noapte sau în condiții de lumină redusă."
+            }
+        }
+    },
+    customDetection: {
+        hero: {
+
+            title: "Detectare AI personalizată pentru camere video",
+
+            subtitle:
+                "Detectează persoane, vehicule, animale și peste 80 de obiecte direct din fluxul camerei tale. CamGuard analizează video în timp real și trimite alerte inteligente când apar obiecte importante.",
+
+            ctaPrimary: "Începe monitorizarea",
+
+            ctaSecondary: "Vezi cum funcționează",
+
+            trust: [
+                "Detectare bazată pe AI",
+                "Peste 80 de obiecte detectabile",
+                "Alerte în timp real"
+            ],
+
+            preview: {
+                title: "Previzualizare cameră",
+                person: "Persoană detectată",
+                car: "Vehicul detectat",
+                dog: "Câine detectat",
+                object: "Obiect personalizat detectat"
+            }
+
+        },
+        objects: {
+
+            title: "Detectează peste 80 de obiecte cu AI",
+
+            subtitle:
+                "CamGuard poate recunoaște zeci de obiecte în fluxul camerei video, de la vehicule și persoane până la animale și obiecte obișnuite.",
+
+            categories: [
+
+                {
+                    title: "Persoane și Vehicule",
+                    description: "Monitorizează mișcarea și vehiculele din jurul proprietății.",
+                    objects: [
+                        "Persoană",
+                        "Bicicletă",
+                        "Mașină",
+                        "Motocicletă",
+                        "Autobuz",
+                        "Camion",
+                        "Tren"
+                    ]
+                },
+
+                {
+                    title: "Animale",
+                    description: "Detectează animale de companie și animale sălbatice.",
+                    objects: [
+                        "Câine",
+                        "Pisică",
+                        "Cal",
+                        "Pasăre",
+                        "Vacă",
+                        "Oaie",
+                        "Urs",
+                        "Elefant"
+                    ]
+                }
+
+            ]
+        }
     }
 }
 

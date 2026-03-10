@@ -1,18 +1,56 @@
-import Image from "next/image";
-import Hero from "@/components/Hero";
-import Waitlist from "@/components/Waitlist";
-import HowItWorks from "@/components/HowItWorks";
-import Features from "@/components/Features";
-import UseCases from "@/components/UseCases";
-import AppPreview from "@/components/AppPreview";
-import Pricing from "@/components/Pricing";
-import Footer from "@/components/Footer";
-import FinalCTA from "@/components/FinalCTA";
+import { Metadata } from "next";
+import { getDictionary } from "@/lib/getDictionary";
+import HeroCustomDetection from "@/app/[locale]/features/custom-detection/sections/HeroCustomDetection";
+import ObjectsDetectionCategories from "@/app/[locale]/features/custom-detection/sections/ObjectsDetectionCategories";
 
-export default function Home() {
+export async function generateMetadata({
+                                           params,
+                                       }: {
+    params: { locale: string };
+}): Promise<Metadata> {
+
+    const isRO = params.locale === "ro";
+
+    return {
+        title: isRO
+            ? "Detectare AI de obiecte pentru camere video | CamGuard"
+            : "AI Object Detection for Security Cameras | CamGuard",
+
+        description: isRO
+            ? "CamGuard detectează peste 80 de tipuri de obiecte în fluxul camerei, inclusiv persoane, vehicule și animale."
+            : "CamGuard detects more than 80 object types including people, vehicles, animals and everyday objects using AI.",
+
+        alternates: {
+            canonical: `/${params.locale}/object-detection`,
+            languages: {
+                en: "/en/object-detection",
+                ro: "/ro/object-detection",
+                "x-default": "/en/object-detection",
+            },
+        },
+    };
+}
+
+export default async function Page({
+                                       params,
+                                   }: {
+    params: { locale: string };
+}) {
+
+    const dict = await getDictionary(params.locale);
+
     return (
-        <main className="min-h-screen p-10">
-            <Footer/>
+        <main>
+
+            <HeroCustomDetection dict={dict} />
+
+            {/* next sections */}
+            {/* <WhatIsObjectDetection dict={dict.customDetection} /> */}
+            <ObjectsDetectionCategories dict={dict} />
+            {/* <UseCases dict={dict.customDetection} /> */}
+            {/* <HowDetectionWorks dict={dict.customDetection} /> */}
+            {/* <FAQ dict={dict.customDetection} /> */}
+
         </main>
     );
 }
