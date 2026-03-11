@@ -701,6 +701,152 @@ const en = {
 
             ]
 
+        },
+        whatIs: {
+
+            title: "What Is AI Custom Object Detection?",
+
+            description:
+                "AI custom object detection allows security cameras to automatically recognize specific objects in video streams.",
+
+            description2:
+                "Instead of simply recording footage, the system analyzes every frame and identifies objects such as people, vehicles, animals, or everyday items.",
+
+            previewTitle: "AI Detection Preview",
+
+            examples: {
+                person: "Person detected near the entrance",
+                vehicle: "Vehicle entering the driveway",
+                animal: "Animal detected in the yard",
+                object: "Package detected at the door"
+            }
+
+        },
+        howItWorks: {
+
+            title: "How AI Custom Object Detection Works",
+
+            subtitle:
+                "CamGuard analyzes your camera feed in real time and automatically identifies important objects using advanced AI models.",
+
+            steps: [
+
+                {
+                    icon: "📹",
+                    title: "Camera Stream",
+                    description:
+                        "Your security camera sends a continuous video stream for analysis."
+                },
+
+                {
+                    icon: "🧠",
+                    title: "AI Processing",
+                    description:
+                        "The AI model analyzes every frame and searches for known object patterns."
+                },
+
+                {
+                    icon: "🔍",
+                    title: "Object Recognition",
+                    description:
+                        "The system identifies objects such as people, vehicles, animals, and everyday items."
+                },
+
+                {
+                    icon: "🚨",
+                    title: "Smart Alerts",
+                    description:
+                        "When a selected object appears, CamGuard sends notifications instantly."
+                }
+
+            ]
+
+        },
+        useCases: {
+
+            title: "Real-World Use Cases for AI Object Detection",
+
+            subtitle:
+                "Custom object detection helps improve security, monitoring, and automation across many environments.",
+
+            items: [
+
+                {
+                    icon: "🏠",
+                    title: "Home Security",
+                    description:
+                        "Detect people, vehicles, or animals approaching your home and receive instant alerts."
+                },
+
+                {
+                    icon: "📦",
+                    title: "Package Monitoring",
+                    description:
+                        "Get notified when a package is delivered or removed from your doorstep."
+                },
+
+                {
+                    icon: "🚗",
+                    title: "Vehicle Detection",
+                    description:
+                        "Monitor driveways, parking areas, and garages for vehicle activity."
+                },
+
+                {
+                    icon: "🐾",
+                    title: "Animal Detection",
+                    description:
+                        "Detect pets or wildlife entering restricted areas around your property."
+                }
+
+            ]
+
+        },
+        faq: {
+
+            title: "Frequently Asked Questions",
+
+            subtitle:
+                "Answers to common questions about AI custom object detection.",
+
+            items: [
+
+                {
+                    question: "What objects can AI security cameras detect?",
+                    answer:
+                        "CamGuard can detect more than 80 different objects including people, vehicles, animals, electronics, furniture, and many everyday items."
+                },
+
+                {
+                    question: "How accurate is AI object detection?",
+                    answer:
+                        "AI detection accuracy depends on camera quality and environment, but modern models can achieve very high recognition accuracy in real-world conditions."
+                },
+
+                {
+                    question: "Can AI cameras detect animals?",
+                    answer:
+                        "Yes. CamGuard can detect many types of animals including dogs, cats, birds, and wildlife depending on the configured detection settings."
+                },
+
+                {
+                    question: "Can I choose which objects trigger alerts?",
+                    answer:
+                        "Yes. Custom detection allows you to select specific objects that trigger notifications or recordings."
+                }
+
+            ]
+
+        },
+        cta: {
+
+            title: "Start Monitoring with AI Object Detection",
+
+            subtitle:
+                "Detect people, vehicles, animals, and more than 80 different objects in your camera feed with CamGuard's intelligent monitoring system.",
+
+            button: "Start Monitoring"
+
         }
 
 

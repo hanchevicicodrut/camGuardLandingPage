@@ -1,7 +1,12 @@
-import { Metadata } from "next";
-import { getDictionary } from "@/lib/getDictionary";
+import {Metadata} from "next";
+import {getDictionary} from "@/lib/getDictionary";
 import HeroCustomDetection from "@/app/[locale]/features/custom-detection/sections/HeroCustomDetection";
 import ObjectsDetectionCategories from "@/app/[locale]/features/custom-detection/sections/ObjectsDetectionCategories";
+import WhatIsCustomDetection from "@/app/[locale]/features/custom-detection/sections/WhatIsCustomDetection";
+import HowCustomDetectionWorks from "@/app/[locale]/features/custom-detection/sections/HowCustomDetectionWorks";
+import CustomDetectionUseCases from "@/app/[locale]/features/custom-detection/sections/CustomDetectionUseCases";
+import CustomDetectionFAQ from "@/app/[locale]/features/custom-detection/sections/CustomDetectionFAQ";
+import CustomDetectionCTA from "@/app/[locale]/features/custom-detection/sections/CustomDetectionCTA";
 
 export async function generateMetadata({
                                            params,
@@ -9,7 +14,7 @@ export async function generateMetadata({
     params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
 
-    const { locale } = await params;
+    const {locale} = await params;
     const isRO = locale === "ro";
 
     return {
@@ -38,16 +43,21 @@ export default async function Page({
     params: Promise<{ locale: string }>;
 }) {
 
-    const { locale } = await params;
+    const {locale} = await params;
 
     const dict = await getDictionary(locale);
 
     return (
         <main>
 
-            <HeroCustomDetection dict={dict} />
+            <HeroCustomDetection dict={dict}/>
 
-            <ObjectsDetectionCategories dict={dict} />
+            <ObjectsDetectionCategories dict={dict}/>
+            <WhatIsCustomDetection dict={dict}/>
+            <HowCustomDetectionWorks dict={dict}/>
+            <CustomDetectionUseCases dict={dict}/>
+            <CustomDetectionFAQ dict={dict}/>
+            <CustomDetectionCTA dict={dict}/>
 
         </main>
     );

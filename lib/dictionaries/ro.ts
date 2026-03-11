@@ -662,6 +662,152 @@ const ro = {
                 }
 
             ]
+        },
+        whatIs: {
+
+            title: "Ce este detectarea personalizată de obiecte cu AI?",
+
+            description:
+                "Detectarea personalizată de obiecte cu AI permite camerelor de supraveghere să recunoască automat obiecte specifice în fluxul video.",
+
+            description2:
+                "În loc să înregistreze doar imagini, sistemul analizează fiecare cadru și identifică obiecte precum persoane, vehicule, animale sau obiecte obișnuite.",
+
+            previewTitle: "Previzualizare detectare AI",
+
+            examples: {
+                person: "Persoană detectată lângă intrare",
+                vehicle: "Vehicul detectat pe alee",
+                animal: "Animal detectat în curte",
+                object: "Pachet detectat la ușă"
+            }
+
+        },
+        howItWorks: {
+
+            title: "Cum funcționează detectarea de obiecte cu AI",
+
+            subtitle:
+                "CamGuard analizează fluxul camerei video în timp real și identifică automat obiectele importante folosind modele AI avansate.",
+
+            steps: [
+
+                {
+                    icon: "📹",
+                    title: "Flux video",
+                    description:
+                        "Camera de supraveghere trimite un flux video continuu pentru analiză."
+                },
+
+                {
+                    icon: "🧠",
+                    title: "Procesare AI",
+                    description:
+                        "Modelul AI analizează fiecare cadru și caută modele de obiecte cunoscute."
+                },
+
+                {
+                    icon: "🔍",
+                    title: "Recunoaștere obiecte",
+                    description:
+                        "Sistemul identifică obiecte precum persoane, vehicule, animale sau obiecte obișnuite."
+                },
+
+                {
+                    icon: "🚨",
+                    title: "Alerte inteligente",
+                    description:
+                        "Când apare un obiect selectat, CamGuard trimite notificări instant."
+                }
+
+            ]
+
+        },
+        useCases: {
+
+            title: "Exemple reale de utilizare pentru detectarea de obiecte cu AI",
+
+            subtitle:
+                "Detectarea personalizată de obiecte îmbunătățește securitatea, monitorizarea și automatizarea în multe situații.",
+
+            items: [
+
+                {
+                    icon: "🏠",
+                    title: "Securitate pentru locuință",
+                    description:
+                        "Detectează persoane, vehicule sau animale care se apropie de locuința ta și primește alerte instant."
+                },
+
+                {
+                    icon: "📦",
+                    title: "Monitorizarea coletelor",
+                    description:
+                        "Primește notificări când un colet este livrat sau ridicat de la ușă."
+                },
+
+                {
+                    icon: "🚗",
+                    title: "Detectarea vehiculelor",
+                    description:
+                        "Monitorizează aleea, parcarea sau garajul pentru activitate vehiculară."
+                },
+
+                {
+                    icon: "🐾",
+                    title: "Detectarea animalelor",
+                    description:
+                        "Detectează animale de companie sau animale sălbatice care intră în zone restricționate."
+                }
+
+            ]
+
+        },
+        faq: {
+
+            title: "Întrebări frecvente",
+
+            subtitle:
+                "Răspunsuri la întrebări comune despre detectarea personalizată de obiecte cu AI.",
+
+            items: [
+
+                {
+                    question: "Ce obiecte pot detecta camerele AI?",
+                    answer:
+                        "CamGuard poate detecta peste 80 de tipuri diferite de obiecte, inclusiv persoane, vehicule, animale, electronice, mobilier și multe alte obiecte obișnuite."
+                },
+
+                {
+                    question: "Cât de precisă este detectarea de obiecte cu AI?",
+                    answer:
+                        "Precizia detectării depinde de calitatea camerei și de mediul înconjurător, dar modelele moderne de inteligență artificială pot atinge o acuratețe foarte ridicată."
+                },
+
+                {
+                    question: "Pot camerele AI detecta animale?",
+                    answer:
+                        "Da. CamGuard poate detecta multe tipuri de animale, inclusiv câini, pisici, păsări și animale sălbatice."
+                },
+
+                {
+                    question: "Pot alege ce obiecte declanșează alerte?",
+                    answer:
+                        "Da. Detectarea personalizată permite selectarea obiectelor care declanșează notificări sau înregistrări."
+                }
+
+            ]
+
+        },
+        cta: {
+
+            title: "Începe monitorizarea cu detectare AI de obiecte",
+
+            subtitle:
+                "Detectează persoane, vehicule, animale și peste 80 de obiecte direct în fluxul camerei tale cu sistemul inteligent CamGuard.",
+
+            button: "Începe monitorizarea"
+
         }
     }
 }
