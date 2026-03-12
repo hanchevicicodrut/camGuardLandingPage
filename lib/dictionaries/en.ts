@@ -847,9 +847,249 @@ const en = {
 
             button: "Start Monitoring"
 
+        },
+    },
+    homeSecurity: {
+        hero: {
+            title: "AI-Powered Home Security Monitoring",
+            subtitle:
+                "CamGuard analyzes your security cameras in real time and detects people, vehicles and animals instantly.",
+
+            primaryCTA: "Start Monitoring",
+            secondaryCTA: "See How It Works",
+
+            preview: "Live Camera Feed",
+
+            points: {
+                security: "AI threat detection",
+                alerts: "Instant alerts",
+                cameras: "Works with existing cameras"
+            },
+
+            badges: {
+                person: "Person detected",
+                vehicle: "Vehicle detected"
+            }
+        },
+        problems: {
+
+            title: "Traditional Security Cameras Aren't Enough",
+
+            subtitle:
+                "Most security cameras only record video. They don't understand what's happening or alert you when something important occurs.",
+
+            items: {
+
+                recording: {
+                    title: "Cameras Only Record",
+                    description:
+                        "Most systems simply store video footage without understanding events happening in the scene."
+                },
+
+                falseAlerts: {
+                    title: "Too Many False Alerts",
+                    description:
+                        "Motion detection often triggers alerts from shadows, rain, or moving trees."
+                },
+
+                missedEvents: {
+                    title: "Important Events Are Missed",
+                    description:
+                        "Without intelligent detection, critical moments can go unnoticed until it's too late."
+                }
+
+            }
+
+        },
+        solution: {
+
+            title: "AI That Understands What Your Cameras See",
+
+            subtitle:
+                "CamGuard transforms your security cameras into an intelligent monitoring system that detects important events automatically.",
+
+            preview: "AI Camera Analysis",
+
+            labels: {
+                person: "Person detected",
+                vehicle: "Vehicle detected",
+                animal: "Animal detected"
+            },
+
+            features: {
+
+                ai: {
+                    title: "Advanced AI Detection",
+                    description:
+                        "CamGuard analyzes camera footage using advanced AI models to recognize people, vehicles, animals and more."
+                },
+
+                detection: {
+                    title: "Real-Time Object Detection",
+                    description:
+                        "Important events are detected instantly so you know exactly what is happening around your home."
+                },
+
+                alerts: {
+                    title: "Instant Smart Alerts",
+                    description:
+                        "Receive immediate notifications when something important is detected in your camera feed."
+                }
+
+            }
+
+        },
+        useCases: {
+            title: "Real Situations Where AI Home Security Helps",
+            subtitle: "CamGuard watches your cameras 24/7 and instantly detects events that matter.",
+            items: {
+                intruder: {
+                    title: "Intruder Detection",
+                    description: "Get instant alerts when an unknown person appears near your home or property."
+                },
+                package: {
+                    title: "Package Monitoring",
+                    description: "Know when deliveries arrive and detect suspicious activity around your packages."
+                },
+                night: {
+                    title: "Night-time Security",
+                    description: "AI monitors your property during the night and alerts you about unusual movement."
+                },
+                vehicle: {
+                    title: "Vehicle Monitoring",
+                    description: "Detect cars entering your driveway or parking areas automatically."
+                },
+                animals: {
+                    title: "Animal Detection",
+                    description: "Receive alerts when animals enter your yard or garden."
+                },
+                family: {
+                    title: "Family Safety",
+                    description: "Know when family members arrive home safely."
+                }
+            }
+        },
+        howItWorks: {
+            title: "How AI Home Security Works",
+            subtitle: "CamGuard connects to your cameras and analyzes video in real time to detect important events.",
+            steps: {
+                connect: {
+                    title: "Connect Your Cameras",
+                    description: "Add your existing security cameras to CamGuard in seconds. No new hardware required."
+                },
+                analyze: {
+                    title: "AI Analyzes Video",
+                    description: "Our AI continuously analyzes the camera feed and detects people, vehicles, animals and other important objects."
+                },
+                alerts: {
+                    title: "Receive Instant Alerts",
+                    description: "Get notifications immediately when something important happens around your home."
+                }
+            }
+        },
+        features: {
+            title: "Powerful AI Home Security Features",
+            subtitle: "CamGuard turns your existing security cameras into an intelligent monitoring system.",
+            items: {
+                person: {
+                    title: "Person Detection",
+                    description: "Detect people appearing near your home and receive instant alerts."
+                },
+                vehicle: {
+                    title: "Vehicle Detection",
+                    description: "Know when a car enters your driveway or parking area."
+                },
+                animals: {
+                    title: "Animal Detection",
+                    description: "Detect animals entering your yard, garden or property."
+                },
+                notifications: {
+                    title: "Instant Notifications",
+                    description: "Receive alerts on your phone when important events are detected."
+                },
+                cameras: {
+                    title: "Works With Existing Cameras",
+                    description: "Use your current IP cameras or security systems without buying new hardware."
+                },
+                privacy: {
+                    title: "Privacy First AI",
+                    description: "Your camera feeds are processed securely with strong privacy protection."
+                }
+            }
+        },
+        detectionTypes: {
+            title: "AI Detects People, Vehicles, Animals and More",
+            subtitle: "CamGuard uses advanced object detection to recognize dozens of objects in your camera feed.",
+            categories: {
+                people: {
+                    title: "People",
+                    items: [
+                        "Person",
+                        "Child",
+                        "Group of people"
+                    ]
+                },
+                vehicles: {
+                    title: "Vehicles",
+                    items: [
+                        "Car",
+                        "Truck",
+                        "Motorcycle",
+                        "Bicycle"
+                    ]
+                },
+                animals: {
+                    title: "Animals",
+                    items: [
+                        "Dog",
+                        "Cat",
+                        "Bird",
+                        "Wild animals"
+                    ]
+                },
+                objects: {
+                    title: "Objects",
+                    items: [
+                        "Package",
+                        "Backpack",
+                        "Suitcase",
+                        "Box"
+                    ]
+                }
+            },
+            note: "CamGuard AI can detect more than 80 different object types."
+        },
+        faq: {
+            title: "Home Security AI – Frequently Asked Questions",
+            subtitle: "Everything you need to know about CamGuard AI monitoring.",
+            items: [
+                {
+                    q: "What cameras work with CamGuard?",
+                    a: "CamGuard works with most IP cameras and security systems that provide RTSP or video stream access."
+                },
+                {
+                    q: "Does CamGuard store my video footage?",
+                    a: "CamGuard analyzes the video stream for object detection. Storage depends on your camera system or recording setup."
+                },
+                {
+                    q: "What objects can CamGuard detect?",
+                    a: "CamGuard AI can detect people, vehicles, animals, packages and more than 80 different object categories."
+                },
+                {
+                    q: "How fast are the alerts?",
+                    a: "Alerts are generated in near real-time, usually within seconds after the object is detected."
+                },
+                {
+                    q: "Is my camera feed private?",
+                    a: "Yes. CamGuard is designed with strong privacy protection and secure processing of camera streams."
+                }
+            ]
+        },
+        cta: {
+            title: "Start Monitoring Your Home with AI",
+            subtitle: "Connect your cameras and let CamGuard detect people, vehicles and animals in real time.",
+            button: "Start Monitoring"
         }
-
-
     }
 
 }

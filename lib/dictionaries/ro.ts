@@ -809,6 +809,247 @@ const ro = {
             button: "Începe monitorizarea"
 
         }
+    },
+    homeSecurity: {
+        hero: {
+            title: "Monitorizare Inteligentă pentru Securitatea Casei",
+            subtitle:
+                "CamGuard analizează camerele tale de supraveghere în timp real și detectează instant persoane, vehicule și animale.",
+
+            primaryCTA: "Începe monitorizarea",
+            secondaryCTA: "Vezi cum funcționează",
+
+            preview: "Flux cameră live",
+
+            points: {
+                security: "Detecție AI de amenințări",
+                alerts: "Notificări instant",
+                cameras: "Funcționează cu camerele existente"
+            },
+
+            badges: {
+                person: "Persoană detectată",
+                vehicle: "Vehicul detectat"
+            }
+        }, problems: {
+
+            title: "Camerele de Supraveghere Tradiționale Nu Sunt Suficiente",
+
+            subtitle:
+                "Majoritatea camerelor de securitate doar înregistrează video. Ele nu înțeleg ce se întâmplă și nu te alertează când apare un eveniment important.",
+
+            items: {
+
+                recording: {
+                    title: "Camerele Doar Înregistrează",
+                    description:
+                        "Majoritatea sistemelor doar salvează înregistrări video fără să înțeleagă ce se întâmplă în scenă."
+                },
+
+                falseAlerts: {
+                    title: "Prea Multe Alerte False",
+                    description:
+                        "Detecția de mișcare trimite adesea alerte cauzate de umbre, ploaie sau copaci în mișcare."
+                },
+
+                missedEvents: {
+                    title: "Evenimente Importante Sunt Ratate",
+                    description:
+                        "Fără detecție inteligentă, momentele critice pot trece neobservate."
+                }
+
+            }
+
+        },
+        solution: {
+
+            title: "Inteligență Artificială care Înțelege ce Văd Camerele Tale",
+
+            subtitle:
+                "CamGuard transformă camerele tale de supraveghere într-un sistem inteligent care detectează automat evenimente importante.",
+
+            preview: "Analiză AI a Camerei",
+
+            labels: {
+                person: "Persoană detectată",
+                vehicle: "Vehicul detectat",
+                animal: "Animal detectat"
+            },
+
+            features: {
+
+                ai: {
+                    title: "Detecție AI Avansată",
+                    description:
+                        "CamGuard analizează fluxul camerelor folosind modele AI pentru a recunoaște persoane, vehicule, animale și multe altele."
+                },
+
+                detection: {
+                    title: "Detecție în Timp Real",
+                    description:
+                        "Evenimentele importante sunt detectate instant pentru a ști exact ce se întâmplă în jurul casei tale."
+                },
+
+                alerts: {
+                    title: "Notificări Inteligente Instant",
+                    description:
+                        "Primești notificări imediat când este detectat un eveniment important în fluxul camerei."
+                }
+
+            }
+
+        },
+        useCases: {
+            title: "Situații reale în care securitatea AI ajută",
+            subtitle: "CamGuard monitorizează camerele tale 24/7 și detectează instant evenimentele importante.",
+            items: {
+                intruder: {
+                    title: "Detectarea intrușilor",
+                    description: "Primești alerte instant când o persoană necunoscută apare lângă casa sau proprietatea ta."
+                },
+                package: {
+                    title: "Monitorizarea livrărilor",
+                    description: "Află imediat când ajung coletele și detectează activități suspecte în jurul lor."
+                },
+                night: {
+                    title: "Securitate pe timpul nopții",
+                    description: "AI monitorizează proprietatea ta noaptea și te alertează dacă detectează mișcare neobișnuită."
+                },
+                vehicle: {
+                    title: "Monitorizarea vehiculelor",
+                    description: "Detectează automat mașinile care intră în curte sau în zona de parcare."
+                },
+                animals: {
+                    title: "Detectarea animalelor",
+                    description: "Primești alerte când animale intră în curte sau în grădină."
+                },
+                family: {
+                    title: "Siguranța familiei",
+                    description: "Știi când membrii familiei ajung acasă în siguranță."
+                }
+            }
+        },
+        howItWorks: {
+            title: "Cum funcționează securitatea AI",
+            subtitle: "CamGuard se conectează la camerele tale și analizează video în timp real pentru a detecta evenimente importante.",
+            steps: {
+                connect: {
+                    title: "Conectează camerele",
+                    description: "Adaugă camerele tale de securitate existente în CamGuard în câteva secunde. Nu este nevoie de hardware nou."
+                },
+                analyze: {
+                    title: "AI analizează video",
+                    description: "Inteligența artificială analizează continuu fluxul camerei și detectează persoane, vehicule, animale și alte obiecte importante."
+                },
+                alerts: {
+                    title: "Primești alerte instant",
+                    description: "Primești notificări imediat când se întâmplă ceva important în jurul casei tale."
+                }
+            }
+        },
+        features: {
+            title: "Funcții puternice pentru securitatea casei cu AI",
+            subtitle: "CamGuard transformă camerele tale existente într-un sistem inteligent de monitorizare.",
+            items: {
+                person: {
+                    title: "Detectare persoane",
+                    description: "Detectează persoane care apar lângă casa ta și primești alerte instant."
+                },
+                vehicle: {
+                    title: "Detectare vehicule",
+                    description: "Află când o mașină intră în curte sau în zona de parcare."
+                },
+                animals: {
+                    title: "Detectare animale",
+                    description: "Detectează animale care intră în curte, grădină sau pe proprietate."
+                },
+                notifications: {
+                    title: "Notificări instant",
+                    description: "Primești notificări pe telefon când sunt detectate evenimente importante."
+                },
+                cameras: {
+                    title: "Funcționează cu camerele existente",
+                    description: "Folosește camerele IP sau sistemele de securitate pe care le ai deja."
+                },
+                privacy: {
+                    title: "AI cu protecția datelor",
+                    description: "Fluxurile video sunt procesate în siguranță cu protecție puternică a datelor."
+                }
+            }
+        },
+        detectionTypes: {
+            title: "AI detectează persoane, vehicule, animale și multe altele",
+            subtitle: "CamGuard folosește detecție avansată de obiecte pentru a recunoaște zeci de obiecte în fluxul camerei.",
+            categories: {
+                people: {
+                    title: "Persoane",
+                    items: [
+                        "Persoană",
+                        "Copil",
+                        "Grup de persoane"
+                    ]
+                },
+                vehicles: {
+                    title: "Vehicule",
+                    items: [
+                        "Mașină",
+                        "Camion",
+                        "Motocicletă",
+                        "Bicicletă"
+                    ]
+                },
+                animals: {
+                    title: "Animale",
+                    items: [
+                        "Câine",
+                        "Pisică",
+                        "Pasăre",
+                        "Animale sălbatice"
+                    ]
+                },
+                objects: {
+                    title: "Obiecte",
+                    items: [
+                        "Colet",
+                        "Rucsac",
+                        "Valiză",
+                        "Cutie"
+                    ]
+                }
+            },
+            note: "AI CamGuard poate detecta peste 80 de tipuri diferite de obiecte."
+        },
+        faq: {
+            title: "Întrebări frecvente despre securitatea AI",
+            subtitle: "Tot ce trebuie să știi despre monitorizarea inteligentă CamGuard.",
+            items: [
+                {
+                    q: "Ce camere sunt compatibile cu CamGuard?",
+                    a: "CamGuard funcționează cu majoritatea camerelor IP și sistemelor de securitate care oferă acces RTSP sau flux video."
+                },
+                {
+                    q: "CamGuard stochează imaginile video?",
+                    a: "CamGuard analizează fluxul video pentru detecția obiectelor. Stocarea depinde de sistemul tău de camere."
+                },
+                {
+                    q: "Ce obiecte poate detecta CamGuard?",
+                    a: "CamGuard poate detecta persoane, vehicule, animale, colete și peste 80 de categorii diferite de obiecte."
+                },
+                {
+                    q: "Cât de rapide sunt alertele?",
+                    a: "Alertele sunt generate aproape instant, de obicei în câteva secunde după detectare."
+                },
+                {
+                    q: "Fluxul camerei este privat?",
+                    a: "Da. CamGuard este construit cu protecție puternică a datelor și procesare securizată a fluxurilor video."
+                }
+            ]
+        },
+        cta: {
+            title: "Începe monitorizarea casei cu AI",
+            subtitle: "Conectează camerele tale și lasă CamGuard să detecteze persoane, vehicule și animale în timp real.",
+            button: "Începe monitorizarea"
+        }
     }
 }
 
