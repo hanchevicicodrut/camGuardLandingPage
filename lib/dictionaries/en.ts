@@ -1090,6 +1090,402 @@ const en = {
             subtitle: "Connect your cameras and let CamGuard detect people, vehicles and animals in real time.",
             button: "Start Monitoring"
         }
+    },
+    smallBusiness: {
+
+        hero: {
+            title: "AI Security Monitoring for Small Businesses",
+            subtitle: "CamGuard analyzes your security cameras and detects people, vehicles, and suspicious activity in real time.",
+            primaryCTA: "Start Monitoring",
+            secondaryCTA: "See How It Works"
+        },
+        problems: {
+            title: "Security Challenges for Small Businesses",
+            subtitle: "Small businesses face daily security risks that traditional cameras alone cannot prevent.",
+
+            items: {
+
+                theft: {
+                    title: "Theft and Shoplifting",
+                    description: "Retail stores and businesses often struggle with shoplifting and internal theft that goes unnoticed."
+                },
+
+                afterHours: {
+                    title: "After-Hours Intrusion",
+                    description: "Break-ins and suspicious activity outside business hours can cause serious financial losses."
+                },
+
+                parking: {
+                    title: "Parking Lot Incidents",
+                    description: "Parking areas are difficult to monitor and often become hotspots for theft or vandalism."
+                },
+
+                staffSafety: {
+                    title: "Staff Safety",
+                    description: "Employees working late or alone may face risks that require quick detection and response."
+                }
+
+            }
+        },
+        detection: {
+
+            title: "AI Detection Capabilities",
+            subtitle: "CamGuard automatically detects important events across your business cameras in real time.",
+
+            items: {
+
+                people: {
+                    title: "Person Detection",
+                    description: "Detect customers, staff, or intruders entering restricted areas or moving through your business."
+                },
+
+                vehicles: {
+                    title: "Vehicle Detection",
+                    description: "Monitor vehicles entering parking areas or restricted zones around your business."
+                },
+
+                animals: {
+                    title: "Animal Detection",
+                    description: "Detect animals that may enter outdoor areas or warehouses."
+                },
+
+                suspicious: {
+                    title: "Suspicious Activity",
+                    description: "Identify unusual movement or activity patterns that may indicate potential threats."
+                },
+
+                objects: {
+                    title: "Object Detection",
+                    description: "Detect packages, equipment, or other objects appearing in sensitive areas."
+                },
+
+                custom: {
+                    title: "Custom Object Detection",
+                    description: "Train the AI to detect specific objects relevant to your business environment."
+                }
+
+            }
+
+        },
+        howItWorks: {
+
+            title: "How CamGuard Works",
+            subtitle: "Set up AI-powered monitoring in minutes using your existing cameras.",
+
+            steps: {
+
+                connect: {
+                    title: "Connect Your Cameras",
+                    description: "Add your existing IP cameras, RTSP streams, or NVR systems to CamGuard in minutes."
+                },
+
+                analyze: {
+                    title: "AI Analyzes Video",
+                    description: "Our AI continuously analyzes camera feeds to detect important events."
+                },
+
+                detect: {
+                    title: "Detect Security Events",
+                    description: "CamGuard detects people, vehicles, animals, and suspicious activity automatically."
+                },
+
+                alert: {
+                    title: "Receive Instant Alerts",
+                    description: "Get real-time notifications when something important happens."
+                }
+
+            }
+
+        },
+        useCases: {
+
+            title: "Built for Different Business Environments",
+            subtitle: "CamGuard helps monitor and protect different types of small businesses using AI-powered camera analysis.",
+
+            items: {
+
+                retail: {
+                    title: "Retail Stores",
+                    description: "Monitor entrances, shelves, and checkout areas to detect shoplifting, suspicious behavior, or unauthorized access."
+                },
+
+                restaurant: {
+                    title: "Restaurants & Cafes",
+                    description: "Improve staff safety and monitor activity during busy hours or late-night operations."
+                },
+
+                warehouse: {
+                    title: "Warehouses",
+                    description: "Monitor storage areas, loading docks, and restricted zones to prevent theft or unauthorized entry."
+                },
+
+                office: {
+                    title: "Offices",
+                    description: "Protect office buildings by monitoring entrances, hallways, and sensitive areas."
+                },
+
+                parking: {
+                    title: "Parking Areas",
+                    description: "Detect vehicles, suspicious activity, or incidents in parking lots around your business."
+                }
+
+            }
+
+        },
+        benefits: {
+
+            title: "Why Small Businesses Choose CamGuard",
+            subtitle: "AI-powered monitoring helps businesses prevent incidents and respond faster.",
+
+            items: {
+
+                preventTheft: {
+                    title: "Prevent Theft",
+                    description: "Detect suspicious activity early and reduce losses caused by theft or vandalism."
+                },
+
+                remoteMonitoring: {
+                    title: "Monitor From Anywhere",
+                    description: "Access your cameras and receive alerts from anywhere using your phone or computer."
+                },
+
+                instantAlerts: {
+                    title: "Real-Time Alerts",
+                    description: "Receive instant notifications when important events are detected."
+                },
+
+                aiAutomation: {
+                    title: "AI-Powered Automation",
+                    description: "Reduce manual monitoring by letting AI detect events automatically."
+                },
+
+                multiLocation: {
+                    title: "Multiple Locations",
+                    description: "Monitor multiple business locations from one centralized dashboard."
+                },
+
+                cameraCompatibility: {
+                    title: "Works With Existing Cameras",
+                    description: "CamGuard integrates with most IP cameras, RTSP streams, and NVR systems."
+                }
+
+            }
+
+        },
+        cta: {
+
+            title: "Start Protecting Your Business with AI Monitoring",
+            subtitle: "Connect your cameras and let CamGuard detect important events in real time.",
+            button: "Start Monitoring"
+
+        },
+        faq: {
+
+            title: "Frequently Asked Questions",
+            subtitle: "Everything you need to know about using CamGuard for your business.",
+
+            items: [
+
+                {
+                    "question": "Can CamGuard work with my existing cameras?",
+                    "answer": "Yes. CamGuard supports most IP cameras, RTSP streams, and NVR systems."
+                },
+
+                {
+                    "question": "Can I monitor multiple business locations?",
+                    "answer": "Yes. CamGuard allows you to monitor multiple locations from a single dashboard."
+                },
+
+                {
+                    "question": "Do I need special hardware?",
+                    "answer": "No additional hardware is required. CamGuard works with your existing camera infrastructure."
+                },
+
+                {
+                    "question": "What events can CamGuard detect?",
+                    "answer": "CamGuard can detect people, vehicles, animals, objects, and other custom detections depending on your configuration."
+                }
+
+            ]
+
+        }
+
+    },
+    warehouseMonitoring: {
+
+        hero: {
+            title: "AI Warehouse Monitoring with Smart Camera Detection",
+            subtitle: "CamGuard analyzes warehouse cameras in real time to detect people, vehicles, forklifts and unusual activity instantly.",
+            primaryCTA: "Start Monitoring",
+            secondaryCTA: "See How It Works",
+
+            points: {
+                security: "Detect unauthorized access",
+                operations: "Monitor warehouse operations",
+                alerts: "Instant activity alerts"
+            }
+        },
+
+        problems: {
+            title: "Warehouse Security and Operational Challenges",
+            subtitle: "Warehouses operate 24/7 and often cover large areas. Monitoring them manually is inefficient and costly.",
+
+            items: {
+                theft: {
+                    title: "Inventory Theft",
+                    description: "Goods and materials can disappear without immediate detection."
+                },
+
+                unauthorized: {
+                    title: "Unauthorized Access",
+                    description: "Employees or external individuals may enter restricted areas."
+                },
+
+                accidents: {
+                    title: "Safety Risks",
+                    description: "Forklifts and heavy equipment create safety risks if not monitored."
+                },
+
+                blindSpots: {
+                    title: "Camera Blind Spots",
+                    description: "Large warehouse spaces make manual monitoring difficult."
+                }
+            }
+        },
+
+        detectionTypes: {
+            title: "AI Detection for Warehouse Monitoring",
+            subtitle: "CamGuard can detect people, vehicles, forklifts, animals and unusual movement patterns in warehouse environments.",
+
+            categories: {
+                people: {
+                    title: "People Detection",
+                    description: "Detect workers or intruders entering restricted zones."
+                },
+
+                forklifts: {
+                    title: "Forklift Detection",
+                    description: "Track forklift movement and activity inside the warehouse."
+                },
+
+                vehicles: {
+                    title: "Vehicle Detection",
+                    description: "Monitor delivery trucks and vehicles in loading areas."
+                },
+
+                animals: {
+                    title: "Animal Detection",
+                    description: "Detect animals entering storage facilities."
+                }
+            }
+        },
+
+        howItWorks: {
+            title: "How Warehouse Monitoring Works",
+            subtitle: "CamGuard connects to your existing cameras and analyzes video feeds using AI.",
+
+            steps: {
+                connect: {
+                    title: "Connect Cameras",
+                    description: "Link your warehouse security cameras to CamGuard."
+                },
+
+                analyze: {
+                    title: "AI Video Analysis",
+                    description: "Our system analyzes the video stream continuously."
+                },
+
+                detect: {
+                    title: "Object Detection",
+                    description: "People, vehicles and forklifts are detected instantly."
+                },
+
+                alert: {
+                    title: "Receive Alerts",
+                    description: "Get notified immediately when activity occurs."
+                }
+            }
+        },
+
+        benefits: {
+            title: "Benefits of AI Warehouse Monitoring",
+            subtitle: "Improve security, safety and operational visibility.",
+
+            items: {
+                security: {
+                    title: "Stronger Security",
+                    description: "Detect intrusions and suspicious activity immediately."
+                },
+
+                safety: {
+                    title: "Improved Safety",
+                    description: "Monitor forklift movement and prevent accidents."
+                },
+
+                operations: {
+                    title: "Operational Visibility",
+                    description: "Understand how your warehouse operates in real time."
+                },
+
+                automation: {
+                    title: "Automated Monitoring",
+                    description: "Reduce the need for constant manual camera watching."
+                }
+            }
+        },
+
+        useCases: {
+            title: "Warehouse Monitoring Use Cases",
+
+            items: {
+                intrusion: {
+                    title: "Detect Intruders",
+                    description: "Get alerts when someone enters the warehouse after hours."
+                },
+
+                forklift: {
+                    title: "Forklift Monitoring",
+                    description: "Track forklift activity and movement."
+                },
+
+                loading: {
+                    title: "Loading Dock Monitoring",
+                    description: "Monitor deliveries and loading operations."
+                },
+
+                restricted: {
+                    title: "Restricted Area Monitoring",
+                    description: "Detect when people enter sensitive storage areas."
+                }
+            }
+        },
+
+        cta: {
+            title: "Start Monitoring Your Warehouse with AI",
+            subtitle: "Connect your warehouse cameras and receive instant alerts when activity is detected.",
+            button: "Start Monitoring"
+        },
+
+        faq: {
+            title: "Warehouse Monitoring FAQ",
+
+            items: [
+                {
+                    question: "Can CamGuard monitor large warehouses?",
+                    answer: "Yes. CamGuard works with multiple cameras and can monitor large warehouse environments."
+                },
+
+                {
+                    question: "Can CamGuard detect forklifts?",
+                    answer: "Yes. Our AI models can detect forklifts, vehicles and other objects commonly found in warehouses."
+                },
+
+                {
+                    question: "Do I need new cameras?",
+                    answer: "No. CamGuard works with most existing IP security cameras."
+                }
+            ]
+        }
     }
 
 }

@@ -1050,6 +1050,402 @@ const ro = {
             subtitle: "Conectează camerele tale și lasă CamGuard să detecteze persoane, vehicule și animale în timp real.",
             button: "Începe monitorizarea"
         }
+    },
+    smallBusiness: {
+
+        hero: {
+            title: "Monitorizare video inteligentă pentru afaceri mici",
+            subtitle: "CamGuard analizează camerele de securitate și detectează persoane, vehicule și activități suspecte în timp real.",
+            primaryCTA: "Începe monitorizarea",
+            secondaryCTA: "Vezi cum funcționează"
+        },
+        problems: {
+            title: "Provocări de securitate pentru afacerile mici",
+            subtitle: "Afaceri mici se confruntă zilnic cu riscuri de securitate pe care camerele tradiționale nu le pot preveni.",
+
+            items: {
+
+                theft: {
+                    title: "Furt și shoplifting",
+                    description: "Magazinele și afacerile mici se confruntă frecvent cu furturi care pot trece neobservate."
+                },
+
+                afterHours: {
+                    title: "Intrări neautorizate după program",
+                    description: "Activitățile suspecte sau spargerile după program pot provoca pierderi financiare serioase."
+                },
+
+                parking: {
+                    title: "Incidente în parcare",
+                    description: "Parcările sunt dificil de monitorizat și devin frecvent locuri unde apar furturi sau vandalism."
+                },
+
+                staffSafety: {
+                    title: "Siguranța angajaților",
+                    description: "Angajații care lucrează singuri sau târziu pot avea nevoie de detectare rapidă a incidentelor."
+                }
+
+            }
+        },
+        detection: {
+
+            title: "Capabilități AI de detectare",
+            subtitle: "CamGuard detectează automat evenimente importante din fluxul camerelor tale în timp real.",
+
+            items: {
+
+                people: {
+                    title: "Detectare persoane",
+                    description: "Detectează clienți, angajați sau intruși care intră în zone restricționate."
+                },
+
+                vehicles: {
+                    title: "Detectare vehicule",
+                    description: "Monitorizează vehiculele care intră în parcare sau în zone restricționate."
+                },
+
+                animals: {
+                    title: "Detectare animale",
+                    description: "Detectează animale care pot intra în zone exterioare sau depozite."
+                },
+
+                suspicious: {
+                    title: "Activitate suspectă",
+                    description: "Identifică mișcări sau comportamente neobișnuite care pot indica o amenințare."
+                },
+
+                objects: {
+                    title: "Detectare obiecte",
+                    description: "Detectează pachete, echipamente sau obiecte plasate în zone sensibile."
+                },
+
+                custom: {
+                    title: "Detectare obiecte personalizate",
+                    description: "Antrenează AI-ul pentru a detecta obiecte specifice afacerii tale."
+                }
+
+            }
+
+        },
+        howItWorks: {
+
+            title: "Cum funcționează CamGuard",
+            subtitle: "Configurează monitorizarea cu AI în câteva minute folosind camerele existente.",
+
+            steps: {
+
+                connect: {
+                    title: "Conectează camerele",
+                    description: "Adaugă camere IP, fluxuri RTSP sau sisteme NVR existente în CamGuard."
+                },
+
+                analyze: {
+                    title: "AI analizează video",
+                    description: "Inteligența artificială analizează continuu fluxurile camerelor."
+                },
+
+                detect: {
+                    title: "Detectează evenimente",
+                    description: "CamGuard detectează automat persoane, vehicule, animale și activități suspecte."
+                },
+
+                alert: {
+                    title: "Primește notificări",
+                    description: "Primești notificări instant când apare un eveniment important."
+                }
+
+            }
+
+        },
+        useCases: {
+
+            title: "Creat pentru diferite tipuri de afaceri",
+            subtitle: "CamGuard ajută la monitorizarea și protejarea diferitelor tipuri de afaceri folosind analiza AI a camerelor.",
+
+            items: {
+
+                retail: {
+                    title: "Magazine retail",
+                    description: "Monitorizează intrările, rafturile și zonele de checkout pentru a detecta furturi sau comportamente suspecte."
+                },
+
+                restaurant: {
+                    title: "Restaurante și cafenele",
+                    description: "Crește siguranța angajaților și monitorizează activitatea în orele aglomerate sau târzii."
+                },
+
+                warehouse: {
+                    title: "Depozite",
+                    description: "Monitorizează zonele de stocare, docurile de încărcare și zonele restricționate."
+                },
+
+                office: {
+                    title: "Birouri",
+                    description: "Protejează clădirile de birouri prin monitorizarea intrărilor și a zonelor sensibile."
+                },
+
+                parking: {
+                    title: "Parcări",
+                    description: "Detectează vehicule și activități suspecte în parcările afacerii."
+                }
+
+            }
+
+        },
+        benefits: {
+
+            title: "De ce aleg afacerile mici CamGuard",
+            subtitle: "Monitorizarea bazată pe AI ajută afacerile să prevină incidentele și să reacționeze mai rapid.",
+
+            items: {
+
+                preventTheft: {
+                    title: "Previne furturile",
+                    description: "Detectează activități suspecte și reduce pierderile cauzate de furt sau vandalism."
+                },
+
+                remoteMonitoring: {
+                    title: "Monitorizare de oriunde",
+                    description: "Accesează camerele și primește notificări de pe telefon sau computer."
+                },
+
+                instantAlerts: {
+                    title: "Notificări în timp real",
+                    description: "Primește notificări instant atunci când apare un eveniment important."
+                },
+
+                aiAutomation: {
+                    title: "Automatizare cu AI",
+                    description: "Reduce monitorizarea manuală prin detectarea automată a evenimentelor."
+                },
+
+                multiLocation: {
+                    title: "Mai multe locații",
+                    description: "Monitorizează mai multe locații ale afacerii dintr-un singur dashboard."
+                },
+
+                cameraCompatibility: {
+                    title: "Funcționează cu camere existente",
+                    description: "CamGuard este compatibil cu majoritatea camerelor IP, fluxurilor RTSP și sistemelor NVR."
+                }
+
+            }
+
+        },
+        cta: {
+
+            title: "Începe să îți protejezi afacerea cu monitorizare AI",
+            subtitle: "Conectează camerele și lasă CamGuard să detecteze evenimentele importante în timp real.",
+            button: "Începe monitorizarea"
+
+        },
+        faq: {
+
+            title: "Întrebări frecvente",
+            subtitle: "Tot ce trebuie să știi despre utilizarea CamGuard pentru afacerea ta.",
+
+            items: [
+
+                {
+                    "question": "Funcționează CamGuard cu camerele mele existente?",
+                    "answer": "Da. CamGuard este compatibil cu majoritatea camerelor IP, fluxurilor RTSP și sistemelor NVR."
+                },
+
+                {
+                    "question": "Pot monitoriza mai multe locații?",
+                    "answer": "Da. CamGuard permite monitorizarea mai multor locații dintr-un singur dashboard."
+                },
+
+                {
+                    "question": "Am nevoie de hardware special?",
+                    "answer": "Nu. CamGuard funcționează cu infrastructura de camere existentă."
+                },
+
+                {
+                    "question": "Ce tipuri de evenimente poate detecta CamGuard?",
+                    "answer": "CamGuard poate detecta persoane, vehicule, animale, obiecte și alte tipuri de detecții personalizate."
+                }
+
+            ]
+
+        }
+
+    },
+    warehouseMonitoring: {
+
+        hero: {
+            title: "Monitorizare Inteligentă pentru Depozite cu AI",
+            subtitle: "CamGuard analizează camerele din depozit în timp real și detectează persoane, vehicule, stivuitoare și activitate neobișnuită.",
+            primaryCTA: "Începe Monitorizarea",
+            secondaryCTA: "Vezi Cum Funcționează",
+
+            points: {
+                security: "Detectează accesul neautorizat",
+                operations: "Monitorizează activitatea din depozit",
+                alerts: "Alerte instant"
+            }
+        },
+
+        problems: {
+            title: "Provocări în Securitatea Depozitelor",
+            subtitle: "Depozitele funcționează 24/7 și acoperă suprafețe mari. Monitorizarea manuală este dificilă și costisitoare.",
+
+            items: {
+                theft: {
+                    title: "Furt de Inventar",
+                    description: "Produsele pot dispărea fără a fi observate imediat."
+                },
+
+                unauthorized: {
+                    title: "Acces Neautorizat",
+                    description: "Angajați sau persoane externe pot intra în zone restricționate."
+                },
+
+                accidents: {
+                    title: "Riscuri de Siguranță",
+                    description: "Stivuitoarele și echipamentele grele pot crea riscuri dacă nu sunt monitorizate."
+                },
+
+                blindSpots: {
+                    title: "Zone Nevăzute",
+                    description: "Suprafața mare a depozitelor face monitorizarea manuală dificilă."
+                }
+            }
+        },
+
+        detectionTypes: {
+            title: "Tipuri de Detectare pentru Depozite",
+            subtitle: "CamGuard poate detecta persoane, vehicule, stivuitoare și animale în mediile de depozitare.",
+
+            categories: {
+                people: {
+                    title: "Detectare Persoane",
+                    description: "Detectează angajați sau intruși în zone restricționate."
+                },
+
+                forklifts: {
+                    title: "Detectare Stivuitoare",
+                    description: "Monitorizează mișcarea stivuitoarelor."
+                },
+
+                vehicles: {
+                    title: "Detectare Vehicule",
+                    description: "Monitorizează camioanele și vehiculele din zonele de încărcare."
+                },
+
+                animals: {
+                    title: "Detectare Animale",
+                    description: "Detectează animale care intră în depozit."
+                }
+            }
+        },
+
+        howItWorks: {
+            title: "Cum Funcționează Monitorizarea Depozitelor",
+            subtitle: "CamGuard se conectează la camerele existente și analizează fluxul video cu AI.",
+
+            steps: {
+                connect: {
+                    title: "Conectează Camerele",
+                    description: "Adaugă camerele depozitului în CamGuard."
+                },
+
+                analyze: {
+                    title: "Analiză Video AI",
+                    description: "Sistemul analizează continuu fluxul video."
+                },
+
+                detect: {
+                    title: "Detectare Obiecte",
+                    description: "Persoanele, vehiculele și stivuitoarele sunt detectate instant."
+                },
+
+                alert: {
+                    title: "Primești Alerte",
+                    description: "Primești notificări atunci când apare activitate."
+                }
+            }
+        },
+
+        benefits: {
+            title: "Beneficiile Monitorizării cu AI",
+            subtitle: "Îmbunătățește securitatea și vizibilitatea operațiunilor.",
+
+            items: {
+                security: {
+                    title: "Securitate Ridicată",
+                    description: "Detectează intruși și activitate suspectă."
+                },
+
+                safety: {
+                    title: "Siguranță Îmbunătățită",
+                    description: "Monitorizează stivuitoarele și reduce riscul accidentelor."
+                },
+
+                operations: {
+                    title: "Vizibilitate Operațională",
+                    description: "Înțelege activitatea din depozit în timp real."
+                },
+
+                automation: {
+                    title: "Monitorizare Automată",
+                    description: "Reduce necesitatea supravegherii manuale."
+                }
+            }
+        },
+
+        useCases: {
+            title: "Exemple de Utilizare",
+
+            items: {
+                intrusion: {
+                    title: "Detectarea Intrușilor",
+                    description: "Primești alerte când cineva intră în depozit după program."
+                },
+
+                forklift: {
+                    title: "Monitorizare Stivuitoare",
+                    description: "Urmărește mișcarea stivuitoarelor."
+                },
+
+                loading: {
+                    title: "Monitorizare Zone de Încărcare",
+                    description: "Monitorizează livrările și operațiunile de încărcare."
+                },
+
+                restricted: {
+                    title: "Zone Restricționate",
+                    description: "Detectează accesul în zone sensibile."
+                }
+            }
+        },
+
+        cta: {
+            title: "Monitorizează Depozitul cu AI",
+            subtitle: "Conectează camerele depozitului și primește alerte instant.",
+            button: "Începe Monitorizarea"
+        },
+
+        faq: {
+            title: "Întrebări Frecvente",
+
+            items: [
+                {
+                    question: "Poate CamGuard monitoriza depozite mari?",
+                    answer: "Da. CamGuard poate analiza fluxuri video de la multiple camere."
+                },
+
+                {
+                    question: "Poate detecta stivuitoare?",
+                    answer: "Da. Modelele AI pot detecta stivuitoare și alte vehicule."
+                },
+
+                {
+                    question: "Trebuie să schimb camerele?",
+                    answer: "Nu. CamGuard funcționează cu majoritatea camerelor IP existente."
+                }
+            ]
+        }
     }
 }
 
