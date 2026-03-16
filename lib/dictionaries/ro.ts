@@ -1446,7 +1446,513 @@ const ro = {
                 }
             ]
         }
-    }
+    },
+    farmMonitoring: {
+
+        hero: {
+            title: "Monitorizare AI pentru ferme și proprietăți exterioare",
+            subtitle: "Detectează persoane, vehicule, animale și echipamente pe suprafețe mari folosind camerele existente.",
+            primaryCTA: "Începe monitorizarea",
+            secondaryCTA: "Vezi cum funcționează"
+        },
+
+        detectionTypes: {
+            title: "Ce poate fi detectat pe ferme",
+            subtitle: "AI CamGuard poate detecta o gamă largă de obiecte în mediile agricole.",
+
+            people: {
+                title: "Persoane",
+                description: "Detectează muncitori, vizitatori sau intruși care intră pe proprietate."
+            },
+
+            vehicles: {
+                title: "Vehicule",
+                description: "Monitorizează tractoare, camioane sau vehicule necunoscute."
+            },
+
+            animals: {
+                title: "Animale",
+                description: "Monitorizează mișcarea animalelor sau detectează animale sălbatice."
+            },
+
+            equipment: {
+                title: "Echipamente",
+                description: "Monitorizează tractoare, utilaje și echipamente agricole."
+            },
+
+            packages: {
+                title: "Livrări",
+                description: "Detectează livrări și activitatea la intrările fermei."
+            },
+
+            custom: {
+                title: "Obiecte personalizate",
+                description: "Antrenează AI pentru detectarea echipamentelor specifice fermei."
+            }
+        },
+
+        problems: {
+            title: "Provocările monitorizării fermelor",
+            subtitle: "Suprafețele mari fac dificilă monitorizarea tradițională.",
+
+            largeAreas: {
+                title: "Suprafețe mari",
+                description: "Fermele acoperă adesea suprafețe extinse greu de monitorizat constant."
+            },
+
+            nightActivity: {
+                title: "Activitate nocturnă",
+                description: "Majoritatea furturilor au loc pe timpul nopții."
+            },
+
+            wildAnimals: {
+                title: "Animale sălbatice",
+                description: "Detectează prădători sau animale nedorite."
+            },
+
+            equipmentTheft: {
+                title: "Furt de echipamente",
+                description: "Utilajele agricole sunt costisitoare și frecvent vizate."
+            }
+        },
+
+        howItWorks: {
+            title: "Cum funcționează monitorizarea fermelor",
+            subtitle: "CamGuard analizează fluxurile video și detectează evenimente importante.",
+
+            steps: {
+
+                connect: {
+                    step: "Pasul 1",
+                    title: "Conectează camerele",
+                    description: "Conectează camerele existente la platforma CamGuard."
+                },
+
+                analyze: {
+                    step: "Pasul 2",
+                    title: "Analiză AI",
+                    description: "AI analizează fiecare cadru din fluxurile video."
+                },
+
+                detect: {
+                    step: "Pasul 3",
+                    title: "Detectare obiecte",
+                    description: "Persoane, vehicule, animale și echipamente sunt detectate automat."
+                },
+
+                alert: {
+                    step: "Pasul 4",
+                    title: "Alerte instant",
+                    description: "Primești notificări imediat când apare o activitate importantă."
+                }
+
+            }
+        },
+
+        useCases: {
+            title: "Exemple de utilizare",
+            subtitle: "CamGuard ajută la protejarea fermelor și echipamentelor agricole.",
+
+            perimeter: {
+                title: "Monitorizarea perimetrului",
+                description: "Detectează intruși care pătrund pe proprietate."
+            },
+
+            livestock: {
+                title: "Monitorizarea animalelor",
+                description: "Monitorizează zonele cu animale și detectează activitate neobișnuită."
+            },
+
+            equipment: {
+                title: "Securitatea utilajelor",
+                description: "Protejează tractoare și utilaje agricole."
+            },
+
+            remote: {
+                title: "Monitorizare la distanță",
+                description: "Monitorizează mai multe ferme dintr-un singur dashboard."
+            }
+        },
+
+        benefits: {
+            title: "Beneficii pentru fermieri",
+            subtitle: "Monitorizarea AI ajută fermele să fie mai sigure.",
+
+            reduceTheft: {
+                title: "Reduce furturile",
+                description: "Detectează activități suspecte înainte de producerea furtului."
+            },
+
+            protectLivestock: {
+                title: "Protejează animalele",
+                description: "Detectează prădători sau mișcări neobișnuite."
+            },
+
+            saveTime: {
+                title: "Economisește timp",
+                description: "Nu mai este nevoie să urmărești camerele manual."
+            },
+
+            monitoring: {
+                title: "Monitorizare 24/7",
+                description: "AI monitorizează ferma permanent."
+            }
+        },
+
+        cta: {
+            title: "Începe monitorizarea fermei tale cu AI",
+            subtitle: "Protejează animale, echipamente și terenuri cu monitorizare inteligentă.",
+            button: "Începe monitorizarea"
+        }
+
+    },
+    // pricing: {
+    //
+    //     hero: {
+    //         badge: "Acces gratuit anticipat",
+    //
+    //         title: "Prețuri simple pentru monitorizarea camerelor cu AI",
+    //
+    //         subtitle:
+    //             "Începe gratuit cu un dispozitiv și treci la planuri cu mai multe camere când vor deveni disponibile.",
+    //
+    //         primaryCTA: "Începe monitorizarea",
+    //
+    //         points: {
+    //             device: "1 dispozitiv gratuit",
+    //             detection: "Detecție obiecte cu AI",
+    //             alerts: "Alerte instant",
+    //             cameras: "Funcționează cu camerele existente"
+    //         }
+    //     },
+    //
+    //     plans: {
+    //
+    //         title: "Începe monitorizarea gratuit",
+    //
+    //         subtitle:
+    //             "Monitorizează o cameră cu detecție AI completă. Planurile cu mai multe dispozitive vor fi disponibile în curând.",
+    //
+    //         free: {
+    //
+    //             badge: "Acces anticipat",
+    //
+    //             name: "Gratuit",
+    //
+    //             price: "$0",
+    //
+    //             period: "/lună",
+    //
+    //             devices: "1 dispozitiv inclus",
+    //
+    //             button: "Începe gratuit",
+    //
+    //             features: {
+    //                 detection: "Detecție obiecte cu AI",
+    //                 alerts: "Alerte în timp real",
+    //                 cameras: "Funcționează cu camerele tale existente",
+    //                 objects: "Detectează persoane, vehicule și animale",
+    //                 cloud: "Procesare securizată în cloud"
+    //             }
+    //
+    //         }
+    //
+    //     },
+    //
+    //     future: {
+    //
+    //         title: "Planuri disponibile în curând",
+    //
+    //         subtitle:
+    //             "Ai nevoie să monitorizezi mai multe camere? Planurile cu mai multe dispozitive sunt în dezvoltare.",
+    //
+    //         plans: {
+    //
+    //             starter: {
+    //                 name: "Starter",
+    //                 label: "În curând",
+    //                 devices: "Până la 5 dispozitive"
+    //             },
+    //
+    //             business: {
+    //                 name: "Business",
+    //                 label: "În curând",
+    //                 devices: "10+ dispozitive"
+    //             }
+    //
+    //         }
+    //
+    //     },
+    //
+    //     faq: {
+    //
+    //         title: "Întrebări despre prețuri",
+    //
+    //         subtitle: "Întrebări frecvente despre planurile noastre",
+    //
+    //         items: {
+    //
+    //             free: {
+    //                 q: "Planul gratuit este chiar gratuit?",
+    //                 a:
+    //                     "Da. Poți monitoriza un dispozitiv cu detecție AI completă și alerte, fără costuri."
+    //             },
+    //
+    //             cameras: {
+    //                 q: "Am nevoie de camere speciale?",
+    //                 a:
+    //                     "Nu. CamGuard funcționează cu majoritatea camerelor de securitate existente."
+    //             },
+    //
+    //             plans: {
+    //                 q: "Când vor fi disponibile planurile plătite?",
+    //                 a:
+    //                     "Lucrăm la planuri care vor permite monitorizarea mai multor dispozitive."
+    //             },
+    //
+    //             upgrade: {
+    //                 q: "Voi putea face upgrade mai târziu?",
+    //                 a:
+    //                     "Da. Când vor apărea noile planuri, vei putea face upgrade instant."
+    //             }
+    //
+    //         }
+    //
+    //     },
+    //
+    //     cta: {
+    //
+    //         title: "Începe să îți monitorizezi camerele chiar azi",
+    //
+    //         subtitle:
+    //             "Detecție AI și alerte în timp real în câteva secunde.",
+    //
+    //         button: "Începe monitorizarea"
+    //
+    //     }
+    //
+    // }
+    // Add this `pricing` key to your existing ro.ts object, alongside the other keys.
+
+    pricing: {
+        hero: {
+            badge: "Acces Timpuriu Gratuit",
+            title: "Prețuri simple pentru monitorizare AI cu camere",
+            subtitle: "Începe gratuit cu un dispozitiv și fă upgrade când planurile multi-dispozitiv devin disponibile.",
+            primaryCTA: "Începe Monitorizarea",
+            points: {
+                device: "1 dispozitiv gratuit",
+                detection: "Detecție AI obiecte",
+                alerts: "Alerte instantanee",
+                cameras: "Funcționează cu camerele existente",
+            },
+        },
+        plans: {
+            title: "Începe monitorizarea gratuit",
+            subtitle: "Monitorizează o cameră cu detecție AI completă. Planurile multi-dispozitiv vin în curând.",
+            free: {
+                badge: "Acces Timpuriu",
+                price: "$0",
+                period: "/lună",
+                devices: "1 dispozitiv inclus",
+                button: "Începe Gratuit",
+                features: {
+                    detection: "Detecție AI obiecte",
+                    alerts: "Alerte în timp real",
+                    cameras: "Funcționează cu camerele tale existente",
+                    objects: "Detectează persoane, vehicule și animale",
+                    cloud: "Procesare securizată în cloud",
+                },
+            },
+        },
+        future: {
+            title: "Planuri în curând",
+            subtitle: "Vrei să monitorizezi mai multe camere? Planurile multi-dispozitiv sunt pe drum.",
+            plans: {
+                starter: { name: "Starter", label: "În Curând", devices: "Până la 5 dispozitive" },
+                business: { name: "Business", label: "În Curând", devices: "10+ dispozitive" },
+            },
+        },
+        faq: {
+            title: "Întrebări despre Prețuri",
+            subtitle: "Întrebări frecvente despre prețurile noastre",
+            items: {
+                free: {
+                    q: "Planul gratuit este cu adevărat gratuit?",
+                    a: "Da. Poți monitoriza un dispozitiv cu detecție AI completă și alerte fără niciun cost.",
+                },
+                cameras: {
+                    q: "Am nevoie de camere speciale?",
+                    a: "Nu. CamGuard funcționează cu majoritatea camerelor de securitate existente.",
+                },
+                plans: {
+                    q: "Când vor fi disponibile planurile plătite?",
+                    a: "Dezvoltăm în prezent planuri care vor permite monitorizarea mai multor dispozitive.",
+                },
+                upgrade: {
+                    q: "Voi putea face upgrade mai târziu?",
+                    a: "Da. Când noile planuri vor deveni disponibile, vei putea face upgrade instantaneu.",
+                },
+            },
+        },
+        cta: {
+            title: "Începe să-ți monitorizezi camerele astăzi",
+            subtitle: "Detecție AI și alerte în timp real în câteva secunde.",
+            button: "Începe Monitorizarea",
+        },
+    },
+    // ─── Add this `home` key to your ro.ts object ────────────────────────────────
+
+    home: {
+        meta: {
+            title: "CamGuard – Monitorizare AI Camere & Alerte Instantanee Detecție Persoane",
+            description:
+                "CamGuard analizează în timp real fluxul camerelor tale de securitate și te alertează instant când este detectată o persoană. Începe monitorizarea gratuit. Fără hardware nou.",
+        },
+        hero: {
+            badge: "Detecție Alimentată de AI",
+            title: "Monitorizare Inteligentă.",
+            titleAccent: "Alerte Instantanee.",
+            subtitle:
+                "CamGuard analizează fluxul camerelor tale și te notifică instant când este detectată o persoană.",
+            primaryCTA: "Începe Monitorizarea Gratuit",
+            secondaryCTA: "Cum Funcționează",
+            trustPoints: [
+                "Nu necesită hardware nou",
+                "Funcționează cu camerele existente",
+                "Gratuit pentru început",
+            ],
+        },
+        howItWorks: {
+            title: "Cum Funcționează",
+            subtitle: "Simplu. Rapid. Automatizat.",
+            note: "Nu sunt necesare camere noi. Funcționează cu configurația ta existentă.",
+            steps: [
+                {
+                    number: "01",
+                    title: "Adaugă Camera Ta",
+                    description:
+                        "Conectează camerele de securitate existente folosind un flux RTSP în câteva secunde. Fără hardware nou.",
+                },
+                {
+                    number: "02",
+                    title: "Analiză AI Automată",
+                    description:
+                        "CamGuard analizează continuu imaginile din fluxul camerei tale folosind modele AI avansate.",
+                },
+                {
+                    number: "03",
+                    title: "Notificări Instantanee",
+                    description:
+                        "Primești alerte pe telefon când este detectată o persoană. Rapid, fiabil și precis.",
+                },
+            ],
+        },
+        features: {
+            title: "Funcții Principale",
+            subtitle: "Tot ce ai nevoie pentru o monitorizare inteligentă și fiabilă.",
+            items: [
+                {
+                    icon: "🎯",
+                    title: "Detecție Persoane în Timp Real",
+                    description:
+                        "CamGuard detectează prezența umană în fluxul camerei și trimite alerte doar când contează.",
+                },
+                {
+                    icon: "📱",
+                    title: "Notificări Mobile",
+                    description:
+                        "Primești notificări instant direct pe telefon ori de câte ori este detectată o persoană.",
+                },
+                {
+                    icon: "⚡",
+                    title: "Configurare Ușoară",
+                    description:
+                        "Funcționează cu camerele existente. Fără hardware nou, fără configurații complexe.",
+                },
+                {
+                    icon: "🔒",
+                    title: "Confidențialitate Prioritară",
+                    description:
+                        "Datele camerelor tale sunt procesate în siguranță. Tu rămâi în control complet în orice moment.",
+                },
+            ],
+        },
+        useCases: {
+            title: "Pentru Cine Este CamGuard?",
+            subtitle: "CamGuard se adaptează diferitelor nevoi de monitorizare, acasă sau la muncă.",
+            items: [
+                {
+                    icon: "🏠",
+                    title: "Securitate Acasă",
+                    description:
+                        "Protejează-ți casa, intrarea și aleea. Primești alerte instant când cineva se apropie.",
+                    href: "/solutions/home-security",
+                },
+                {
+                    icon: "🏢",
+                    title: "Birouri și Afaceri",
+                    description:
+                        "Monitorizează intrările și spațiile de afaceri. Detectează accesul neautorizat în timp real.",
+                    href: "/solutions/small-business",
+                },
+                {
+                    icon: "🏗️",
+                    title: "Monitorizare Proprietăți",
+                    description:
+                        "Monitorizează șantiere, proprietăți închiriate și spații exterioare automat.",
+                    href: "/solutions/warehouses",
+                },
+                {
+                    icon: "🌲",
+                    title: "Zone Exterioare",
+                    description:
+                        "Detectează activitatea în ferme, grădini și zone exterioare mari folosind camerele existente.",
+                    href: "/solutions/farm-security",
+                },
+            ],
+        },
+        inAction: {
+            title: "Vezi CamGuard în Acțiune",
+            subtitle:
+                "O interfață simplă și curată, concepută să te țină informat dintr-o privire.",
+            features: [
+                "Alerte instant pentru detecție persoane",
+                "Monitorizare ușoară a camerelor",
+                "Gata de utilizare pe dispozitive mobile",
+                "Conceput pentru monitorizare zilnică",
+            ],
+        },
+        pricing: {
+            title: "Prețuri",
+            subtitle: "Începe gratuit. Fă upgrade când ai nevoie de mai mult.",
+            link: "Vezi toate planurile →",
+            linkHref: "/pricing",
+            free: {
+                name: "Gratuit",
+                tagline: "Monitorizarea personală și de bază.",
+                price: "€0",
+                period: "/lună",
+                features: ["1 cameră", "Detecție persoane", "Notificări mobile"],
+                cta: "Începe Monitorizarea Gratuit",
+            },
+            premium: {
+                name: "Premium",
+                tagline: "Pentru nevoi avansate de monitorizare.",
+                label: "În Curând",
+                features: ["Camere multiple", "Istoric extins", "Alerte avansate"],
+                cta: "Listă de Așteptare",
+            },
+        },
+        cta: {
+            badge: "Gratuit permanent pentru 1 cameră",
+            title: "Începe să-ți Monitorizezi Camerele Astăzi",
+            subtitle:
+                "Detecție AI și alerte în timp real. Gratuit pentru început, fără hardware nou.",
+            primaryCTA: "Începe Monitorizarea Gratuit",
+            secondaryCTA: "Află Mai Multe",
+        },
+    },
 }
 
 export default ro;

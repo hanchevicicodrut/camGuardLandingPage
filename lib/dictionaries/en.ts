@@ -266,18 +266,18 @@ const en = {
                 "Our AI models can recognize a wide range of animals using advanced computer vision.",
 
             animals: [
-                { icon: "🐱", name: "Cats" },
-                { icon: "🐶", name: "Dogs" },
-                { icon: "🦌", name: "Deer" },
-                { icon: "🦊", name: "Foxes" },
-                { icon: "🦝", name: "Raccoons" },
-                { icon: "🐻", name: "Bears" },
-                { icon: "🐦", name: "Birds" },
-                { icon: "🐺", name: "Wolves" },
-                { icon: "🐗", name: "Wild Boars" },
-                { icon: "🐐", name: "Goats" },
-                { icon: "🐄", name: "Cattle" },
-                { icon: "🐑", name: "Sheep" }
+                {icon: "🐱", name: "Cats"},
+                {icon: "🐶", name: "Dogs"},
+                {icon: "🦌", name: "Deer"},
+                {icon: "🦊", name: "Foxes"},
+                {icon: "🦝", name: "Raccoons"},
+                {icon: "🐻", name: "Bears"},
+                {icon: "🐦", name: "Birds"},
+                {icon: "🐺", name: "Wolves"},
+                {icon: "🐗", name: "Wild Boars"},
+                {icon: "🐐", name: "Goats"},
+                {icon: "🐄", name: "Cattle"},
+                {icon: "🐑", name: "Sheep"}
             ]
 
         },
@@ -1486,7 +1486,386 @@ const en = {
                 }
             ]
         }
-    }
+    },
+    farmMonitoring: {
+
+        hero: {
+            title: "AI Monitoring for Farms and Outdoor Properties",
+            subtitle: "Detect people, vehicles, animals and equipment across large outdoor areas using your existing cameras.",
+            primaryCTA: "Start Monitoring",
+            secondaryCTA: "See How It Works"
+        },
+
+        detectionTypes: {
+            title: "What Can Be Detected on Farms",
+            subtitle: "CamGuard AI can detect a wide range of objects across outdoor farm environments.",
+
+            people: {
+                title: "People",
+                description: "Detect workers, visitors or intruders entering your property."
+            },
+
+            vehicles: {
+                title: "Vehicles",
+                description: "Track tractors, trucks and unknown vehicles entering farm areas."
+            },
+
+            animals: {
+                title: "Animals",
+                description: "Monitor livestock movement or detect wild animals near your farm."
+            },
+
+            equipment: {
+                title: "Equipment",
+                description: "Monitor tractors, tools and valuable agricultural equipment."
+            },
+
+            packages: {
+                title: "Deliveries",
+                description: "Detect deliveries and activity at farm entrances."
+            },
+
+            custom: {
+                title: "Custom Objects",
+                description: "Train AI detection for specific farm equipment or assets."
+            }
+        },
+
+        problems: {
+            title: "Challenges of Monitoring Farms",
+            subtitle: "Large outdoor environments make traditional security difficult.",
+
+            largeAreas: {
+                title: "Large Areas",
+                description: "Farms often cover large areas that are difficult to monitor continuously."
+            },
+
+            nightActivity: {
+                title: "Night Activity",
+                description: "Many intrusions and thefts happen during nighttime."
+            },
+
+            wildAnimals: {
+                title: "Wild Animals",
+                description: "Detect predators or unwanted animals entering livestock areas."
+            },
+
+            equipmentTheft: {
+                title: "Equipment Theft",
+                description: "Farm equipment is expensive and frequently targeted by thieves."
+            }
+        },
+
+        howItWorks: {
+            title: "How Farm Monitoring Works",
+            subtitle: "CamGuard analyzes your camera feeds and detects important events instantly.",
+
+            steps: {
+
+                connect: {
+                    step: "Step 1",
+                    title: "Connect Cameras",
+                    description: "Connect your existing outdoor cameras to the CamGuard platform."
+                },
+
+                analyze: {
+                    step: "Step 2",
+                    title: "AI Analysis",
+                    description: "Our AI analyzes every frame from your camera feeds."
+                },
+
+                detect: {
+                    step: "Step 3",
+                    title: "Object Detection",
+                    description: "People, vehicles, animals and equipment are detected automatically."
+                },
+
+                alert: {
+                    step: "Step 4",
+                    title: "Instant Alerts",
+                    description: "Receive alerts immediately when important events happen."
+                }
+
+            }
+        },
+
+        useCases: {
+            title: "Farm Monitoring Use Cases",
+            subtitle: "CamGuard helps protect farms, livestock and agricultural equipment.",
+
+            perimeter: {
+                title: "Perimeter Monitoring",
+                description: "Detect intruders entering farm property or restricted areas."
+            },
+
+            livestock: {
+                title: "Livestock Monitoring",
+                description: "Monitor livestock areas and detect unusual animal activity."
+            },
+
+            equipment: {
+                title: "Equipment Yard Security",
+                description: "Protect tractors and expensive machinery stored outdoors."
+            },
+
+            remote: {
+                title: "Remote Farm Monitoring",
+                description: "Monitor multiple farms and outdoor locations from a single dashboard."
+            }
+        },
+
+        benefits: {
+            title: "Benefits for Farm Owners",
+            subtitle: "AI monitoring helps farms operate more securely and efficiently.",
+
+            reduceTheft: {
+                title: "Reduce Theft",
+                description: "Detect suspicious activity before theft occurs."
+            },
+
+            protectLivestock: {
+                title: "Protect Livestock",
+                description: "Monitor animals and detect predators or unusual movement."
+            },
+
+            saveTime: {
+                title: "Save Time",
+                description: "Stop watching camera feeds manually."
+            },
+
+            monitoring: {
+                title: "24/7 Monitoring",
+                description: "AI monitors your farm continuously day and night."
+            }
+        },
+
+        cta: {
+            title: "Start Monitoring Your Farm with AI",
+            subtitle: "Protect livestock, equipment and land with intelligent camera monitoring.",
+            button: "Start Monitoring"
+        }
+
+    },
+    pricing: {
+        hero: {
+            badge: "Free Early Access",
+            title: "Simple pricing for AI camera monitoring",
+            subtitle: "Start free with one device and upgrade when multi-device plans become available.",
+            primaryCTA: "Start Monitoring",
+            points: {
+                device: "1 device free",
+                detection: "AI object detection",
+                alerts: "Instant alerts",
+                cameras: "Works with existing cameras",
+            },
+        },
+        plans: {
+            title: "Start monitoring for free",
+            subtitle: "Monitor one camera with full AI detection. Multi-device plans are coming soon.",
+            free: {
+                badge: "Early Access",
+                price: "$0",
+                period: "/month",
+                devices: "1 device included",
+                button: "Start Free",
+                features: {
+                    detection: "AI object detection",
+                    alerts: "Real-time alerts",
+                    cameras: "Works with your existing cameras",
+                    objects: "Detect people, vehicles and animals",
+                    cloud: "Secure cloud processing",
+                },
+            },
+        },
+        future: {
+            title: "Plans coming soon",
+            subtitle: "Need to monitor more cameras? Multi-device plans are on the way.",
+            plans: {
+                starter: { name: "Starter", label: "Coming Soon", devices: "Up to 5 devices" },
+                business: { name: "Business", label: "Coming Soon", devices: "10+ devices" },
+            },
+        },
+        faq: {
+            title: "Pricing FAQ",
+            subtitle: "Common questions about our pricing",
+            items: {
+                free: {
+                    q: "Is the free plan really free?",
+                    a: "Yes. You can monitor one device with full AI detection and alerts at no cost.",
+                },
+                cameras: {
+                    q: "Do I need special cameras?",
+                    a: "No. CamGuard works with most existing security cameras.",
+                },
+                plans: {
+                    q: "When will paid plans be available?",
+                    a: "We are currently developing plans that will allow monitoring multiple devices.",
+                },
+                upgrade: {
+                    q: "Will I be able to upgrade later?",
+                    a: "Yes. When new plans become available you will be able to upgrade instantly.",
+                },
+            },
+        },
+        cta: {
+            title: "Start monitoring your cameras today",
+            subtitle: "AI-powered detection and real-time alerts in seconds.",
+            button: "Start Monitoring",
+        },
+    },
+    // ─── Add this `home` key to your en.ts object ────────────────────────────────
+
+    home: {
+        meta: {
+            title: "CamGuard – AI Camera Monitoring & Instant Person Detection Alerts",
+            description:
+                "CamGuard analyzes your security camera feed in real time and instantly alerts you when a person is detected. Start monitoring for free. No new hardware required.",
+        },
+        hero: {
+            badge: "AI-Powered Detection",
+            title: "Smart Camera Monitoring.",
+            titleAccent: "Instant Alerts.",
+            subtitle:
+                "CamGuard analyzes your camera feed and notifies you instantly when a person is detected.",
+            primaryCTA: "Start Monitoring Free",
+            secondaryCTA: "How It Works",
+            trustPoints: [
+                "No hardware required",
+                "Works with existing cameras",
+                "Free to start",
+            ],
+        },
+        howItWorks: {
+            title: "How It Works",
+            subtitle: "Simple. Fast. Automated.",
+            note: "No new cameras needed. Works with your existing setup.",
+            steps: [
+                {
+                    number: "01",
+                    title: "Add Your Camera",
+                    description:
+                        "Connect your existing security cameras using an RTSP stream in seconds. No new hardware required.",
+                },
+                {
+                    number: "02",
+                    title: "Automatic AI Analysis",
+                    description:
+                        "CamGuard continuously analyzes images from your camera feed using advanced AI models.",
+                },
+                {
+                    number: "03",
+                    title: "Instant Notifications",
+                    description:
+                        "Receive alerts on your phone when a person is detected. Fast, reliable, and accurate.",
+                },
+            ],
+        },
+        features: {
+            title: "Key Features",
+            subtitle: "Everything you need for smart, reliable camera monitoring.",
+            items: [
+                {
+                    icon: "🎯",
+                    title: "Real-Time Person Detection",
+                    description:
+                        "CamGuard detects human presence in your camera feed and sends alerts only when it matters.",
+                },
+                {
+                    icon: "📱",
+                    title: "Mobile Notifications",
+                    description:
+                        "Receive instant notifications directly on your phone whenever someone is detected.",
+                },
+                {
+                    icon: "⚡",
+                    title: "Easy Setup",
+                    description:
+                        "Works with your existing cameras. No new hardware, no complex configuration.",
+                },
+                {
+                    icon: "🔒",
+                    title: "Privacy-First",
+                    description:
+                        "Your camera data is processed securely and privately. You stay in full control at all times.",
+                },
+            ],
+        },
+        useCases: {
+            title: "Who Is CamGuard For?",
+            subtitle: "CamGuard adapts to different monitoring needs, at home or at work.",
+            items: [
+                {
+                    icon: "🏠",
+                    title: "Home Security",
+                    description:
+                        "Protect your home, driveway and entrance. Get instant alerts when someone approaches.",
+                    href: "/solutions/home-security",
+                },
+                {
+                    icon: "🏢",
+                    title: "Office & Business",
+                    description:
+                        "Monitor entrances and business premises. Detect unauthorized access in real time.",
+                    href: "/solutions/small-business",
+                },
+                {
+                    icon: "🏗️",
+                    title: "Property Monitoring",
+                    description:
+                        "Monitor construction sites, rental properties and outdoor spaces automatically.",
+                    href: "/solutions/warehouses",
+                },
+                {
+                    icon: "🌲",
+                    title: "Outdoor Areas",
+                    description:
+                        "Detect activity in farms, gardens and large outdoor areas using your existing cameras.",
+                    href: "/solutions/farm-security",
+                },
+            ],
+        },
+        inAction: {
+            title: "See CamGuard In Action",
+            subtitle:
+                "A simple, clean interface designed to keep you informed at a glance.",
+            features: [
+                "Instant person detection alerts",
+                "Easy camera monitoring",
+                "Ready to use on mobile devices",
+                "Designed for everyday monitoring",
+            ],
+        },
+        pricing: {
+            title: "Pricing",
+            subtitle: "Start free. Upgrade when you need more.",
+            link: "See all plans →",
+            linkHref: "/pricing",
+            free: {
+                name: "Free",
+                tagline: "The personal and basic monitoring.",
+                price: "€0",
+                period: "/month",
+                features: ["1 camera", "Person detection", "Mobile notifications"],
+                cta: "Start Monitoring Free",
+            },
+            premium: {
+                name: "Premium",
+                tagline: "For advanced monitoring needs.",
+                label: "Coming Soon",
+                features: ["Multiple cameras", "Extended history", "Advanced alerts"],
+                cta: "See Waitlist",
+            },
+        },
+        cta: {
+            badge: "Free forever for 1 camera",
+            title: "Start Monitoring Your Cameras Today",
+            subtitle:
+                "AI-powered person detection and real-time alerts. Free to start, no hardware needed.",
+            primaryCTA: "Start Monitoring Free",
+            secondaryCTA: "Learn More",
+        },
+    },
+
 
 }
 
