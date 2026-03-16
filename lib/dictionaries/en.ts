@@ -1714,155 +1714,197 @@ const en = {
         },
     },
     // ─── Add this `home` key to your en.ts object ────────────────────────────────
+// Every heading, subtitle and body line is written to target real search terms.
+// Primary keyword: "AI security camera monitoring"
+// Secondary: "person detection security camera", "free camera monitoring software",
+//            "AI camera alerts", "works with existing cameras", "RTSP camera monitoring"
 
     home: {
         meta: {
-            title: "CamGuard – AI Camera Monitoring & Instant Person Detection Alerts",
+            // Title tag: primary keyword first, brand last, under 60 chars
+            title: "AI Security Camera Monitoring – Free Person Detection Alerts | CamGuard",
+            // Meta description: includes primary + secondary keywords, clear CTA, under 155 chars
             description:
-                "CamGuard analyzes your security camera feed in real time and instantly alerts you when a person is detected. Start monitoring for free. No new hardware required.",
+                "CamGuard is free AI security camera monitoring software that detects people in real time and sends instant alerts. Works with existing IP cameras. No new hardware required.",
         },
+
         hero: {
-            badge: "AI-Powered Detection",
-            title: "Smart Camera Monitoring.",
-            titleAccent: "Instant Alerts.",
+            badge: "Free AI Camera Monitoring",
+            // h1: exact-match primary keyword phrase people search for
+            title: "AI Security Camera Monitoring.",
+            // h1 accent: secondary intent — what they want from it
+            titleAccent: "Free Person Detection Alerts.",
+            // Subtitle: naturally includes "existing IP cameras", "real-time", "no hardware"
             subtitle:
-                "CamGuard analyzes your camera feed and notifies you instantly when a person is detected.",
+                "CamGuard analyzes your existing IP camera feed in real time and sends instant alerts when a person is detected. No new hardware. No subscription.",
             primaryCTA: "Start Monitoring Free",
-            secondaryCTA: "How It Works",
+            secondaryCTA: "See How It Works",
             trustPoints: [
-                "No hardware required",
-                "Works with existing cameras",
-                "Free to start",
+                "Works with existing IP cameras",
+                "Free person detection — 1 camera",
+                "Real-time alerts on your phone",
             ],
         },
+
         howItWorks: {
-            title: "How It Works",
-            subtitle: "Simple. Fast. Automated.",
-            note: "No new cameras needed. Works with your existing setup.",
+            // h2: keyword phrase — "how AI camera monitoring works" has real search volume
+            title: "How AI Security Camera Monitoring Works",
+            // Subtitle: keyword-rich sentence, not just a tagline
+            subtitle:
+                "CamGuard connects to your existing security cameras and uses artificial intelligence to detect people and send alerts automatically — in three simple steps.",
+            note: "No new cameras or hardware required. Works with most IP cameras via RTSP.",
             steps: [
                 {
                     number: "01",
-                    title: "Add Your Camera",
+                    // h3: keyword phrase + action
+                    title: "Connect Your Existing Security Camera",
+                    // Body: naturally includes "RTSP", "IP camera", "no hardware"
                     description:
-                        "Connect your existing security cameras using an RTSP stream in seconds. No new hardware required.",
+                        "Add your existing IP camera to CamGuard using an RTSP stream. Compatible with Hikvision, Dahua, Reolink and most ONVIF cameras. No new hardware required.",
                 },
                 {
                     number: "02",
-                    title: "Automatic AI Analysis",
+                    title: "AI Analyzes Your Camera Feed in Real Time",
                     description:
-                        "CamGuard continuously analyzes images from your camera feed using advanced AI models.",
+                        "CamGuard's AI continuously processes video frames from your security camera to detect human movement with high accuracy — day and night.",
                 },
                 {
                     number: "03",
-                    title: "Instant Notifications",
+                    title: "Receive Instant Person Detection Alerts",
                     description:
-                        "Receive alerts on your phone when a person is detected. Fast, reliable, and accurate.",
+                        "When a person is detected, CamGuard sends an instant notification to your phone. No false alarms from shadows, animals or moving trees.",
                 },
             ],
         },
+
         features: {
-            title: "Key Features",
-            subtitle: "Everything you need for smart, reliable camera monitoring.",
+            // h2: "AI security camera features" — descriptive, keyword-rich
+            title: "AI Security Camera Monitoring Features",
+            subtitle:
+                "CamGuard gives your existing security cameras intelligent person detection capabilities without replacing any hardware or paying a subscription.",
             items: [
                 {
                     icon: "🎯",
+                    // h3: "real-time person detection" is a searched phrase
                     title: "Real-Time Person Detection",
                     description:
-                        "CamGuard detects human presence in your camera feed and sends alerts only when it matters.",
+                        "CamGuard uses AI object detection to identify people in your camera feed instantly. Receive alerts only for real human activity — not shadows, animals or wind.",
                 },
                 {
                     icon: "📱",
-                    title: "Mobile Notifications",
+                    title: "Instant Mobile Alerts for Security Events",
                     description:
-                        "Receive instant notifications directly on your phone whenever someone is detected.",
+                        "Get push notifications directly on your phone the moment a person is detected by your security camera. Fast, reliable and accurate.",
                 },
                 {
                     icon: "⚡",
-                    title: "Easy Setup",
+                    // h3: addresses "easy setup" + "existing cameras" — common purchase objection
+                    title: "Works With Your Existing IP Cameras",
                     description:
-                        "Works with your existing cameras. No new hardware, no complex configuration.",
+                        "No need to buy new cameras. CamGuard works with most existing IP security cameras that support RTSP streaming, including Hikvision, Dahua and Reolink.",
                 },
                 {
                     icon: "🔒",
-                    title: "Privacy-First",
+                    // h3: "privacy" is a key concern people search alongside "AI camera"
+                    title: "Private and Secure AI Processing",
                     description:
-                        "Your camera data is processed securely and privately. You stay in full control at all times.",
+                        "Your camera feed is processed securely. CamGuard does not store continuous video footage. You stay in full control of your security data at all times.",
                 },
             ],
         },
+
         useCases: {
-            title: "Who Is CamGuard For?",
-            subtitle: "CamGuard adapts to different monitoring needs, at home or at work.",
+            // h2: "AI camera monitoring for home and business" — covers two major intents
+            title: "AI Camera Monitoring for Home and Business",
+            subtitle:
+                "CamGuard's AI person detection works across a wide range of environments — from home security to business premises and large outdoor properties.",
             items: [
                 {
                     icon: "🏠",
-                    title: "Home Security",
+                    // h3: "home security camera monitoring" — high search volume
+                    title: "Home Security Camera Monitoring",
                     description:
-                        "Protect your home, driveway and entrance. Get instant alerts when someone approaches.",
+                        "Monitor your front door, driveway and garden with AI person detection. Get instant alerts when someone approaches your home — day or night.",
                     href: "/solutions/home-security",
                 },
                 {
                     icon: "🏢",
-                    title: "Office & Business",
+                    // h3: "business security camera AI" — B2B intent
+                    title: "Business and Office Security Cameras",
                     description:
-                        "Monitor entrances and business premises. Detect unauthorized access in real time.",
+                        "Protect your office or store with AI-powered camera monitoring. Detect unauthorized access, monitor entrances and receive real-time security alerts.",
                     href: "/solutions/small-business",
                 },
                 {
                     icon: "🏗️",
-                    title: "Property Monitoring",
+                    title: "Property and Construction Site Monitoring",
                     description:
-                        "Monitor construction sites, rental properties and outdoor spaces automatically.",
+                        "Monitor rental properties, construction sites and warehouses with AI cameras. Get alerts for any person detected outside of working hours.",
                     href: "/solutions/warehouses",
                 },
                 {
                     icon: "🌲",
-                    title: "Outdoor Areas",
+                    title: "Outdoor and Farm Security Monitoring",
                     description:
-                        "Detect activity in farms, gardens and large outdoor areas using your existing cameras.",
+                        "AI camera monitoring for large outdoor areas, farms and rural properties. Detect intruders and receive alerts across multiple camera zones.",
                     href: "/solutions/farm-security",
                 },
             ],
         },
+
         inAction: {
-            title: "See CamGuard In Action",
+            // h2: descriptive, includes product name + action
+            title: "AI Person Detection — See It Working Live",
             subtitle:
-                "A simple, clean interface designed to keep you informed at a glance.",
+                "CamGuard connects to your existing security cameras and displays real-time AI detection events in a clean, easy-to-use monitoring interface.",
             features: [
-                "Instant person detection alerts",
-                "Easy camera monitoring",
-                "Ready to use on mobile devices",
-                "Designed for everyday monitoring",
+                "Instant person detection alerts from your security cameras",
+                "Works on mobile — monitor your cameras from anywhere",
+                "Simple dashboard designed for everyday home and business use",
+                "AI detection works 24/7, day and night with night-vision cameras",
             ],
         },
+
         pricing: {
-            title: "Pricing",
-            subtitle: "Start free. Upgrade when you need more.",
-            link: "See all plans →",
+            // h2: "free AI camera monitoring" — strong keyword with purchase intent
+            title: "Free AI Security Camera Monitoring",
+            subtitle:
+                "Start monitoring one security camera with full AI person detection at no cost. No credit card. No subscription. Upgrade when multi-camera plans become available.",
+            link: "See full pricing and upcoming plans →",
             linkHref: "/pricing",
             free: {
                 name: "Free",
-                tagline: "The personal and basic monitoring.",
+                tagline: "Full AI person detection for one security camera.",
                 price: "€0",
                 period: "/month",
-                features: ["1 camera", "Person detection", "Mobile notifications"],
-                cta: "Start Monitoring Free",
+                features: [
+                    "1 IP security camera",
+                    "AI person detection",
+                    "Real-time mobile alerts",
+                ],
+                cta: "Start Free AI Monitoring",
             },
             premium: {
                 name: "Premium",
-                tagline: "For advanced monitoring needs.",
+                tagline: "Multi-camera AI monitoring for homes and businesses.",
                 label: "Coming Soon",
-                features: ["Multiple cameras", "Extended history", "Advanced alerts"],
-                cta: "See Waitlist",
+                features: [
+                    "Multiple security cameras",
+                    "Extended detection history",
+                    "Advanced AI alert filters",
+                ],
+                cta: "Join Waitlist",
             },
         },
+
         cta: {
-            badge: "Free forever for 1 camera",
-            title: "Start Monitoring Your Cameras Today",
+            badge: "Free — No credit card required",
+            // h2: strong CTA with primary keyword
+            title: "Start AI Security Camera Monitoring Today",
             subtitle:
-                "AI-powered person detection and real-time alerts. Free to start, no hardware needed.",
+                "Connect your existing IP cameras and get free real-time person detection alerts in minutes. No new hardware, no subscription, no setup fees.",
             primaryCTA: "Start Monitoring Free",
-            secondaryCTA: "Learn More",
+            secondaryCTA: "How It Works",
         },
     },
 

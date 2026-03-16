@@ -1802,155 +1802,177 @@ const ro = {
         },
     },
     // ─── Add this `home` key to your ro.ts object ────────────────────────────────
+// Cuvânt cheie principal: "monitorizare camere securitate AI"
+// Secundare: "detectie persoane camera", "software monitorizare camere gratuit",
+//            "alerte AI camera", "functioneaza cu camere existente", "camera RTSP"
 
     home: {
         meta: {
-            title: "CamGuard – Monitorizare AI Camere & Alerte Instantanee Detecție Persoane",
+            title: "Monitorizare Camere Securitate AI – Alerte Gratuite Detecție Persoane | CamGuard",
             description:
-                "CamGuard analizează în timp real fluxul camerelor tale de securitate și te alertează instant când este detectată o persoană. Începe monitorizarea gratuit. Fără hardware nou.",
+                "CamGuard este software gratuit de monitorizare AI pentru camere de securitate care detectează persoane în timp real și trimite alerte instant. Funcționează cu camerele IP existente. Fără hardware nou.",
         },
+
         hero: {
-            badge: "Detecție Alimentată de AI",
-            title: "Monitorizare Inteligentă.",
-            titleAccent: "Alerte Instantanee.",
+            badge: "Monitorizare Gratuită AI Camere",
+            title: "Monitorizare AI Camere de Securitate.",
+            titleAccent: "Alerte Gratuite Detecție Persoane.",
             subtitle:
-                "CamGuard analizează fluxul camerelor tale și te notifică instant când este detectată o persoană.",
+                "CamGuard analizează fluxul camerelor IP existente în timp real și trimite alerte instant când este detectată o persoană. Fără hardware nou. Fără abonament.",
             primaryCTA: "Începe Monitorizarea Gratuit",
             secondaryCTA: "Cum Funcționează",
             trustPoints: [
-                "Nu necesită hardware nou",
-                "Funcționează cu camerele existente",
-                "Gratuit pentru început",
+                "Funcționează cu camerele IP existente",
+                "Detecție persoane gratuită — 1 cameră",
+                "Alerte în timp real pe telefon",
             ],
         },
+
         howItWorks: {
-            title: "Cum Funcționează",
-            subtitle: "Simplu. Rapid. Automatizat.",
-            note: "Nu sunt necesare camere noi. Funcționează cu configurația ta existentă.",
+            title: "Cum Funcționează Monitorizarea AI a Camerelor de Securitate",
+            subtitle:
+                "CamGuard se conectează la camerele de securitate existente și folosește inteligența artificială pentru a detecta persoane și a trimite alerte automat — în trei pași simpli.",
+            note: "Nu sunt necesare camere sau hardware nou. Funcționează cu majoritatea camerelor IP prin RTSP.",
             steps: [
                 {
                     number: "01",
-                    title: "Adaugă Camera Ta",
+                    title: "Conectează Camera de Securitate Existentă",
                     description:
-                        "Conectează camerele de securitate existente folosind un flux RTSP în câteva secunde. Fără hardware nou.",
+                        "Adaugă camera IP existentă în CamGuard folosind un flux RTSP. Compatibil cu Hikvision, Dahua, Reolink și majoritatea camerelor ONVIF. Fără hardware nou.",
                 },
                 {
                     number: "02",
-                    title: "Analiză AI Automată",
+                    title: "AI Analizează Fluxul Camerei în Timp Real",
                     description:
-                        "CamGuard analizează continuu imaginile din fluxul camerei tale folosind modele AI avansate.",
+                        "AI-ul CamGuard procesează continuu cadrele video ale camerei de securitate pentru a detecta mișcarea umană cu precizie ridicată — zi și noapte.",
                 },
                 {
                     number: "03",
-                    title: "Notificări Instantanee",
+                    title: "Primește Alerte Instant de Detecție Persoane",
                     description:
-                        "Primești alerte pe telefon când este detectată o persoană. Rapid, fiabil și precis.",
+                        "Când este detectată o persoană, CamGuard trimite o notificare instantanee pe telefon. Fără alarme false cauzate de umbre, animale sau vânt.",
                 },
             ],
         },
+
         features: {
-            title: "Funcții Principale",
-            subtitle: "Tot ce ai nevoie pentru o monitorizare inteligentă și fiabilă.",
+            title: "Funcții de Monitorizare AI pentru Camere de Securitate",
+            subtitle:
+                "CamGuard oferă camerelor de securitate existente capacități inteligente de detecție persoane fără a înlocui hardware-ul sau a plăti un abonament.",
             items: [
                 {
                     icon: "🎯",
                     title: "Detecție Persoane în Timp Real",
                     description:
-                        "CamGuard detectează prezența umană în fluxul camerei și trimite alerte doar când contează.",
+                        "CamGuard folosește detecția AI de obiecte pentru a identifica persoane în fluxul camerei instant. Primești alerte doar pentru activitate umană reală — nu umbre, animale sau vânt.",
                 },
                 {
                     icon: "📱",
-                    title: "Notificări Mobile",
+                    title: "Alerte Mobile Instant pentru Evenimente de Securitate",
                     description:
-                        "Primești notificări instant direct pe telefon ori de câte ori este detectată o persoană.",
+                        "Primești notificări push direct pe telefon în momentul în care camera de securitate detectează o persoană. Rapid, fiabil și precis.",
                 },
                 {
                     icon: "⚡",
-                    title: "Configurare Ușoară",
+                    title: "Funcționează cu Camerele IP Existente",
                     description:
-                        "Funcționează cu camerele existente. Fără hardware nou, fără configurații complexe.",
+                        "Nu este nevoie să cumperi camere noi. CamGuard funcționează cu majoritatea camerelor IP de securitate existente care suportă streaming RTSP, inclusiv Hikvision, Dahua și Reolink.",
                 },
                 {
                     icon: "🔒",
-                    title: "Confidențialitate Prioritară",
+                    title: "Procesare AI Privată și Securizată",
                     description:
-                        "Datele camerelor tale sunt procesate în siguranță. Tu rămâi în control complet în orice moment.",
+                        "Fluxul camerei tale este procesat în siguranță. CamGuard nu stochează înregistrări video continue. Tu rămâi în control deplin al datelor de securitate în orice moment.",
                 },
             ],
         },
+
         useCases: {
-            title: "Pentru Cine Este CamGuard?",
-            subtitle: "CamGuard se adaptează diferitelor nevoi de monitorizare, acasă sau la muncă.",
+            title: "Monitorizare AI Camere pentru Acasă și Afaceri",
+            subtitle:
+                "Detecția AI de persoane CamGuard funcționează în diverse medii — de la securitate acasă la spații de afaceri și proprietăți exterioare mari.",
             items: [
                 {
                     icon: "🏠",
-                    title: "Securitate Acasă",
+                    title: "Monitorizare Camere de Securitate Acasă",
                     description:
-                        "Protejează-ți casa, intrarea și aleea. Primești alerte instant când cineva se apropie.",
+                        "Monitorizează ușa de intrare, aleea și grădina cu detecție AI de persoane. Primești alerte instant când cineva se apropie de casă — zi sau noapte.",
                     href: "/solutions/home-security",
                 },
                 {
                     icon: "🏢",
-                    title: "Birouri și Afaceri",
+                    title: "Camere de Securitate AI pentru Afaceri și Birouri",
                     description:
-                        "Monitorizează intrările și spațiile de afaceri. Detectează accesul neautorizat în timp real.",
+                        "Protejează biroul sau magazinul cu monitorizare AI a camerelor. Detectează accesul neautorizat, monitorizează intrările și primește alerte de securitate în timp real.",
                     href: "/solutions/small-business",
                 },
                 {
                     icon: "🏗️",
-                    title: "Monitorizare Proprietăți",
+                    title: "Monitorizare Proprietăți și Șantiere de Construcții",
                     description:
-                        "Monitorizează șantiere, proprietăți închiriate și spații exterioare automat.",
+                        "Monitorizează proprietăți închiriate, șantiere și depozite cu camere AI. Primești alerte pentru orice persoană detectată în afara orelor de lucru.",
                     href: "/solutions/warehouses",
                 },
                 {
                     icon: "🌲",
-                    title: "Zone Exterioare",
+                    title: "Monitorizare Securitate Exterioară și Ferme",
                     description:
-                        "Detectează activitatea în ferme, grădini și zone exterioare mari folosind camerele existente.",
+                        "Monitorizare AI a camerelor pentru zone exterioare mari, ferme și proprietăți rurale. Detectează intruși și primește alerte din multiple zone de camere.",
                     href: "/solutions/farm-security",
                 },
             ],
         },
+
         inAction: {
-            title: "Vezi CamGuard în Acțiune",
+            title: "Detecție AI Persoane — Vezi cum Funcționează Live",
             subtitle:
-                "O interfață simplă și curată, concepută să te țină informat dintr-o privire.",
+                "CamGuard se conectează la camerele de securitate existente și afișează evenimente de detecție AI în timp real într-o interfață de monitorizare clară și ușor de utilizat.",
             features: [
-                "Alerte instant pentru detecție persoane",
-                "Monitorizare ușoară a camerelor",
-                "Gata de utilizare pe dispozitive mobile",
-                "Conceput pentru monitorizare zilnică",
+                "Alerte instant de detecție persoane de la camerele de securitate",
+                "Funcționează pe mobil — monitorizează camerele de oriunde",
+                "Dashboard simplu conceput pentru utilizare zilnică acasă și la birou",
+                "Detecția AI funcționează 24/7, zi și noapte cu camere cu vedere nocturnă",
             ],
         },
+
         pricing: {
-            title: "Prețuri",
-            subtitle: "Începe gratuit. Fă upgrade când ai nevoie de mai mult.",
-            link: "Vezi toate planurile →",
+            title: "Monitorizare Gratuită AI pentru Camere de Securitate",
+            subtitle:
+                "Începe să monitorizezi o cameră de securitate cu detecție completă AI de persoane fără niciun cost. Fără card de credit. Fără abonament. Fă upgrade când planurile multi-cameră devin disponibile.",
+            link: "Vezi prețurile complete și planurile viitoare →",
             linkHref: "/pricing",
             free: {
                 name: "Gratuit",
-                tagline: "Monitorizarea personală și de bază.",
+                tagline: "Detecție completă AI de persoane pentru o cameră de securitate.",
                 price: "€0",
                 period: "/lună",
-                features: ["1 cameră", "Detecție persoane", "Notificări mobile"],
-                cta: "Începe Monitorizarea Gratuit",
+                features: [
+                    "1 cameră IP de securitate",
+                    "Detecție AI persoane",
+                    "Alerte mobile în timp real",
+                ],
+                cta: "Începe Monitorizarea AI Gratuit",
             },
             premium: {
                 name: "Premium",
-                tagline: "Pentru nevoi avansate de monitorizare.",
+                tagline: "Monitorizare AI multi-cameră pentru acasă și afaceri.",
                 label: "În Curând",
-                features: ["Camere multiple", "Istoric extins", "Alerte avansate"],
-                cta: "Listă de Așteptare",
+                features: [
+                    "Camere de securitate multiple",
+                    "Istoric extins de detecție",
+                    "Filtre avansate de alerte AI",
+                ],
+                cta: "Înscrie-te pe Listă",
             },
         },
+
         cta: {
-            badge: "Gratuit permanent pentru 1 cameră",
-            title: "Începe să-ți Monitorizezi Camerele Astăzi",
+            badge: "Gratuit — Fără card de credit",
+            title: "Începe Monitorizarea AI a Camerelor de Securitate Astăzi",
             subtitle:
-                "Detecție AI și alerte în timp real. Gratuit pentru început, fără hardware nou.",
+                "Conectează camerele IP existente și obține alerte gratuite de detecție persoane în timp real în câteva minute. Fără hardware nou, fără abonament, fără taxe de instalare.",
             primaryCTA: "Începe Monitorizarea Gratuit",
-            secondaryCTA: "Află Mai Multe",
+            secondaryCTA: "Cum Funcționează",
         },
     },
 }
