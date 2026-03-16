@@ -6,7 +6,7 @@ import {
     ChevronDown, ArrowRight, Check,
     Sparkles, Eye, Bell,
 } from "lucide-react";
-import type { PricingDict } from "./page";
+import type { PricingDict } from "./PricingDict.tsx";
 
 // ── Styles ─────────────────────────────────────────────────────────────────────
 const css = `
