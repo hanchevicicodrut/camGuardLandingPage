@@ -1606,200 +1606,125 @@ const ro = {
         }
 
     },
-    // pricing: {
-    //
-    //     hero: {
-    //         badge: "Acces gratuit anticipat",
-    //
-    //         title: "Prețuri simple pentru monitorizarea camerelor cu AI",
-    //
-    //         subtitle:
-    //             "Începe gratuit cu un dispozitiv și treci la planuri cu mai multe camere când vor deveni disponibile.",
-    //
-    //         primaryCTA: "Începe monitorizarea",
-    //
-    //         points: {
-    //             device: "1 dispozitiv gratuit",
-    //             detection: "Detecție obiecte cu AI",
-    //             alerts: "Alerte instant",
-    //             cameras: "Funcționează cu camerele existente"
-    //         }
-    //     },
-    //
-    //     plans: {
-    //
-    //         title: "Începe monitorizarea gratuit",
-    //
-    //         subtitle:
-    //             "Monitorizează o cameră cu detecție AI completă. Planurile cu mai multe dispozitive vor fi disponibile în curând.",
-    //
-    //         free: {
-    //
-    //             badge: "Acces anticipat",
-    //
-    //             name: "Gratuit",
-    //
-    //             price: "$0",
-    //
-    //             period: "/lună",
-    //
-    //             devices: "1 dispozitiv inclus",
-    //
-    //             button: "Începe gratuit",
-    //
-    //             features: {
-    //                 detection: "Detecție obiecte cu AI",
-    //                 alerts: "Alerte în timp real",
-    //                 cameras: "Funcționează cu camerele tale existente",
-    //                 objects: "Detectează persoane, vehicule și animale",
-    //                 cloud: "Procesare securizată în cloud"
-    //             }
-    //
-    //         }
-    //
-    //     },
-    //
-    //     future: {
-    //
-    //         title: "Planuri disponibile în curând",
-    //
-    //         subtitle:
-    //             "Ai nevoie să monitorizezi mai multe camere? Planurile cu mai multe dispozitive sunt în dezvoltare.",
-    //
-    //         plans: {
-    //
-    //             starter: {
-    //                 name: "Starter",
-    //                 label: "În curând",
-    //                 devices: "Până la 5 dispozitive"
-    //             },
-    //
-    //             business: {
-    //                 name: "Business",
-    //                 label: "În curând",
-    //                 devices: "10+ dispozitive"
-    //             }
-    //
-    //         }
-    //
-    //     },
-    //
-    //     faq: {
-    //
-    //         title: "Întrebări despre prețuri",
-    //
-    //         subtitle: "Întrebări frecvente despre planurile noastre",
-    //
-    //         items: {
-    //
-    //             free: {
-    //                 q: "Planul gratuit este chiar gratuit?",
-    //                 a:
-    //                     "Da. Poți monitoriza un dispozitiv cu detecție AI completă și alerte, fără costuri."
-    //             },
-    //
-    //             cameras: {
-    //                 q: "Am nevoie de camere speciale?",
-    //                 a:
-    //                     "Nu. CamGuard funcționează cu majoritatea camerelor de securitate existente."
-    //             },
-    //
-    //             plans: {
-    //                 q: "Când vor fi disponibile planurile plătite?",
-    //                 a:
-    //                     "Lucrăm la planuri care vor permite monitorizarea mai multor dispozitive."
-    //             },
-    //
-    //             upgrade: {
-    //                 q: "Voi putea face upgrade mai târziu?",
-    //                 a:
-    //                     "Da. Când vor apărea noile planuri, vei putea face upgrade instant."
-    //             }
-    //
-    //         }
-    //
-    //     },
-    //
-    //     cta: {
-    //
-    //         title: "Începe să îți monitorizezi camerele chiar azi",
-    //
-    //         subtitle:
-    //             "Detecție AI și alerte în timp real în câteva secunde.",
-    //
-    //         button: "Începe monitorizarea"
-    //
-    //     }
-    //
-    // }
-    // Add this `pricing` key to your existing ro.ts object, alongside the other keys.
+// Add this block inside the `const ro = { ... }` object in your ro.ts file
 
     pricing: {
-        hero: {
-            badge: "Acces Timpuriu Gratuit",
-            title: "Prețuri simple pentru monitorizare AI cu camere",
-            subtitle: "Începe gratuit cu un dispozitiv și fă upgrade când planurile multi-dispozitiv devin disponibile.",
-            primaryCTA: "Începe Monitorizarea",
-            points: {
-                device: "1 dispozitiv gratuit",
-                detection: "Detecție AI obiecte",
-                alerts: "Alerte instantanee",
-                cameras: "Funcționează cu camerele existente",
+        badge: "Prețuri simple și transparente",
+        heroTitle: "Planuri care",
+        heroTitleItalic: "protejează",
+        heroTitleEnd: "fiecare spațiu.",
+        heroSubtitle:
+            "Începe gratuit, scalează când ai nevoie. Fără taxe ascunse, fără contracte complexe — doar monitorizare inteligentă.",
+        billingMonthly: "Lunar",
+        billingAnnual: "Anual",
+        billingSave: "Economisești 25%",
+        billingPeriodMonthly: "pe lună",
+        billingPeriodAnnual: "pe lună, facturat anual",
+        pricingComingSoon: "Prețuri în curând",
+
+        plans: [
+            {
+                key: "starter",
+                name: "Starter",
+                monthlyPrice: 0,
+                annualPrice: 0,
+                freeLabel: "Gratuit pentru totdeauna",
+                desc: "Monitorizează un spațiu cu detecție esențială. Perfect pentru început.",
+                cta: "Începe gratuit",
+                ctaStyle: "outline" as const,
+                featured: false,
+                featuresLabel: "Include",
+                features: [
+                    { text: "1 cameră", muted: false },
+                    { text: "Detecție persoane în timp real", muted: false },
+                    { text: "Notificări push pe mobil", muted: false },
+                    { text: "Istoric evenimente 24 ore", muted: false },
+                    { text: "Fără înregistrare în cloud", muted: true },
+                    { text: "Fără alerte pe zone multiple", muted: true },
+                ],
             },
-        },
-        plans: {
-            title: "Începe monitorizarea gratuit",
-            subtitle: "Monitorizează o cameră cu detecție AI completă. Planurile multi-dispozitiv vin în curând.",
-            free: {
-                badge: "Acces Timpuriu",
-                price: "$0",
-                period: "/lună",
-                devices: "1 dispozitiv inclus",
-                button: "Începe Gratuit",
-                features: {
-                    detection: "Detecție AI obiecte",
-                    alerts: "Alerte în timp real",
-                    cameras: "Funcționează cu camerele tale existente",
-                    objects: "Detectează persoane, vehicule și animale",
-                    cloud: "Procesare securizată în cloud",
-                },
+            {
+                key: "pro",
+                name: "Pro",
+                monthlyPrice: null,
+                annualPrice: null,
+                freeLabel: null,
+                desc: "Tot ce ai nevoie pentru acasă sau un birou mic — cu backup în cloud și zone inteligente.",
+                cta: "Începe perioada de probă 14 zile",
+                ctaStyle: "solid" as const,
+                featured: true,
+                featuresLabel: "Tot din Starter, plus",
+                features: [
+                    { text: "Până la 5 camere", muted: false },
+                    { text: "Înregistrare cloud 30 zile", muted: false },
+                    { text: "Zone de detecție personalizate", muted: false },
+                    { text: "Alerte email + SMS", muted: false },
+                    { text: "Detecție mod noapte", muted: false },
+                    { text: "Suport prioritar (24h)", muted: false },
+                ],
             },
-        },
-        future: {
-            title: "Planuri în curând",
-            subtitle: "Vrei să monitorizezi mai multe camere? Planurile multi-dispozitiv sunt pe drum.",
-            plans: {
-                starter: { name: "Starter", label: "În Curând", devices: "Până la 5 dispozitive" },
-                business: { name: "Business", label: "În Curând", devices: "10+ dispozitive" },
+            {
+                key: "business",
+                name: "Business",
+                monthlyPrice: null,
+                annualPrice: null,
+                freeLabel: null,
+                desc: "Conceput pentru echipe cu locații multiple, administratori de proprietăți și afaceri în creștere.",
+                cta: "Începe acum",
+                ctaStyle: "outline" as const,
+                featured: false,
+                featuresLabel: "Tot din Pro, plus",
+                features: [
+                    { text: "Camere nelimitate", muted: false },
+                    { text: "Înregistrare cloud 90 zile", muted: false },
+                    { text: "Panou de control multi-locație", muted: false },
+                    { text: "Acces echipă și roluri", muted: false },
+                    { text: "Acces API & webhook", muted: false },
+                    { text: "Manager de cont dedicat", muted: false },
+                ],
             },
+        ],
+
+        popularBadge: "Cel mai popular",
+
+        enterprise: {
+            title: "Ai nevoie de ceva mai mare? Hai să vorbim despre Enterprise.",
+            desc: "Limite personalizate de camere, implementare on-premise, SSO, garanții SLA și onboarding dedicat pentru operațiuni la scară largă.",
+            cta: "Contactează echipa de vânzări",
         },
-        faq: {
-            title: "Întrebări despre Prețuri",
-            subtitle: "Întrebări frecvente despre prețurile noastre",
-            items: {
-                free: {
-                    q: "Planul gratuit este cu adevărat gratuit?",
-                    a: "Da. Poți monitoriza un dispozitiv cu detecție AI completă și alerte fără niciun cost.",
-                },
-                cameras: {
-                    q: "Am nevoie de camere speciale?",
-                    a: "Nu. CamGuard funcționează cu majoritatea camerelor de securitate existente.",
-                },
-                plans: {
-                    q: "Când vor fi disponibile planurile plătite?",
-                    a: "Dezvoltăm în prezent planuri care vor permite monitorizarea mai multor dispozitive.",
-                },
-                upgrade: {
-                    q: "Voi putea face upgrade mai târziu?",
-                    a: "Da. Când noile planuri vor deveni disponibile, vei putea face upgrade instantaneu.",
-                },
+
+        trustedLabel: "Folosit de echipe din",
+        trustedCompanies: ["Nexacore", "UrbanVault", "Brindis Group", "SafeHaven PM", "Fieldstone Co"],
+
+        faqTitle: "Întrebări frecvente",
+        faqSubtitle: "Tot ce trebuie să știi înainte de a alege un plan.",
+        faqs: [
+            {
+                q: "Pot schimba planul oricând?",
+                a: "Da — poți face upgrade sau downgrade oricând din setările contului. Upgrade-urile intră în vigoare imediat; downgrade-urile se aplică la începutul următorului ciclu de facturare.",
             },
-        },
-        cta: {
-            title: "Începe să-ți monitorizezi camerele astăzi",
-            subtitle: "Detecție AI și alerte în timp real în câteva secunde.",
-            button: "Începe Monitorizarea",
-        },
+            {
+                q: "Am nevoie de hardware nou pentru CamGuard?",
+                a: "Nu. CamGuard funcționează cu orice cameră IP existentă prin stream RTSP sau link de acces — nu este necesar hardware nou.",
+            },
+            {
+                q: "Înregistrările mele sunt stocate în siguranță?",
+                a: "Toate înregistrările sunt criptate în repaus și în tranzit. Îți păstrezi controlul deplin asupra datelor. CamGuard nu partajează și nu vinde datele tale.",
+            },
+            {
+                q: "Ce se întâmplă după expirarea perioadei de probă?",
+                a: "După 14 zile, ești mutat automat pe planul gratuit Starter — fără taxe, fără card necesar în avans. Poți face upgrade oricând ești pregătit.",
+            },
+            {
+                q: "Există o politică de rambursare?",
+                a: "Da. Dacă nu ești mulțumit în primele 30 de zile ale unui plan plătit, contactează suportul pentru o rambursare completă — fără întrebări.",
+            },
+        ],
+
+        ctaTitle: "Începe să îți protejezi spațiul astăzi.",
+        ctaSubtitle: "Fără hardware. Fără taxe de configurare. Gata în câteva minute.",
+        ctaPrimary: "Începe gratuit",
+        ctaSecondary: "Descarcă aplicația",
     },
 
 }

@@ -1646,74 +1646,128 @@ const en = {
         }
 
     },
-    pricing: {
-        hero: {
-            badge: "Free Early Access",
-            title: "Simple pricing for AI camera monitoring",
-            subtitle: "Start free with one device and upgrade when multi-device plans become available.",
-            primaryCTA: "Start Monitoring",
-            points: {
-                device: "1 device free",
-                detection: "AI object detection",
-                alerts: "Instant alerts",
-                cameras: "Works with existing cameras",
-            },
-        },
-        plans: {
-            title: "Start monitoring for free",
-            subtitle: "Monitor one camera with full AI detection. Multi-device plans are coming soon.",
-            free: {
-                badge: "Early Access",
-                price: "$0",
-                period: "/month",
-                devices: "1 device included",
-                button: "Start Free",
-                features: {
-                    detection: "AI object detection",
-                    alerts: "Real-time alerts",
-                    cameras: "Works with your existing cameras",
-                    objects: "Detect people, vehicles and animals",
-                    cloud: "Secure cloud processing",
-                },
-            },
-        },
-        future: {
-            title: "Plans coming soon",
-            subtitle: "Need to monitor more cameras? Multi-device plans are on the way.",
-            plans: {
-                starter: { name: "Starter", label: "Coming Soon", devices: "Up to 5 devices" },
-                business: { name: "Business", label: "Coming Soon", devices: "10+ devices" },
-            },
-        },
-        faq: {
-            title: "Pricing FAQ",
-            subtitle: "Common questions about our pricing",
-            items: {
-                free: {
-                    q: "Is the free plan really free?",
-                    a: "Yes. You can monitor one device with full AI detection and alerts at no cost.",
-                },
-                cameras: {
-                    q: "Do I need special cameras?",
-                    a: "No. CamGuard works with most existing security cameras.",
-                },
-                plans: {
-                    q: "When will paid plans be available?",
-                    a: "We are currently developing plans that will allow monitoring multiple devices.",
-                },
-                upgrade: {
-                    q: "Will I be able to upgrade later?",
-                    a: "Yes. When new plans become available you will be able to upgrade instantly.",
-                },
-            },
-        },
-        cta: {
-            title: "Start monitoring your cameras today",
-            subtitle: "AI-powered detection and real-time alerts in seconds.",
-            button: "Start Monitoring",
-        },
-    },
+    // Add this block inside the `const en = { ... }` object in your en.ts file
+// The "as const" on ctaStyle values ensures TypeScript infers "outline" | "solid"
+// instead of plain string
 
+    pricing: {
+        badge: "Simple, transparent pricing",
+        heroTitle: "Plans that",
+        heroTitleItalic: "protect",
+        heroTitleEnd: "every space.",
+        heroSubtitle:
+            "Start free, scale when you need to. No hidden fees, no complex contracts — just smart camera monitoring.",
+        billingMonthly: "Monthly",
+        billingAnnual: "Annual",
+        billingSave: "Save 25%",
+        billingPeriodMonthly: "per month",
+        billingPeriodAnnual: "per month, billed annually",
+        pricingComingSoon: "Pricing coming soon",
+
+        plans: [
+            {
+                key: "starter",
+                name: "Starter",
+                monthlyPrice: 0,
+                annualPrice: 0,
+                freeLabel: "Free forever",
+                desc: "Monitor one space with essential detection. Perfect for getting started.",
+                cta: "Get started free",
+                ctaStyle: "outline" as const,
+                featured: false,
+                featuresLabel: "Includes",
+                features: [
+                    { text: "1 camera feed", muted: false },
+                    { text: "Real-time person detection", muted: false },
+                    { text: "Mobile push notifications", muted: false },
+                    { text: "24-hour event history", muted: false },
+                    { text: "No cloud recording", muted: true },
+                    { text: "No multi-zone alerts", muted: true },
+                ],
+            },
+            {
+                key: "pro",
+                name: "Pro",
+                monthlyPrice: null,
+                annualPrice: null,
+                freeLabel: null,
+                desc: "Everything you need for a home or small office — with cloud backup and smart zones.",
+                cta: "Start 14-day free trial",
+                ctaStyle: "solid" as const,
+                featured: true,
+                featuresLabel: "Everything in Starter, plus",
+                features: [
+                    { text: "Up to 5 camera feeds", muted: false },
+                    { text: "30-day cloud recording", muted: false },
+                    { text: "Custom detection zones", muted: false },
+                    { text: "Email + SMS alerts", muted: false },
+                    { text: "Night mode detection", muted: false },
+                    { text: "Priority support (24h)", muted: false },
+                ],
+            },
+            {
+                key: "business",
+                name: "Business",
+                monthlyPrice: null,
+                annualPrice: null,
+                freeLabel: null,
+                desc: "Designed for multi-site teams, property managers, and growing businesses.",
+                cta: "Get started",
+                ctaStyle: "outline" as const,
+                featured: false,
+                featuresLabel: "Everything in Pro, plus",
+                features: [
+                    { text: "Unlimited camera feeds", muted: false },
+                    { text: "90-day cloud recording", muted: false },
+                    { text: "Multi-site dashboard", muted: false },
+                    { text: "Team access & roles", muted: false },
+                    { text: "API & webhook access", muted: false },
+                    { text: "Dedicated account manager", muted: false },
+                ],
+            },
+        ],
+
+        popularBadge: "Most popular",
+
+        enterprise: {
+            title: "Need something larger? Let's talk Enterprise.",
+            desc: "Custom camera limits, on-premise deployment, SSO, SLA guarantees, and white-glove onboarding for large-scale operations.",
+            cta: "Contact sales",
+        },
+
+        trustedLabel: "Trusted by teams at",
+        trustedCompanies: ["Nexacore", "UrbanVault", "Brindis Group", "SafeHaven PM", "Fieldstone Co"],
+
+        faqTitle: "Common questions",
+        faqSubtitle: "Everything you need to know before choosing a plan.",
+        faqs: [
+            {
+                q: "Can I change my plan at any time?",
+                a: "Yes — you can upgrade or downgrade at any time from your account settings. Upgrades take effect immediately; downgrades apply at the start of your next billing cycle.",
+            },
+            {
+                q: "Do I need new hardware to use CamGuard?",
+                a: "No. CamGuard works with any existing IP camera via its RTSP stream or access link — no proprietary hardware required.",
+            },
+            {
+                q: "Is my footage stored securely?",
+                a: "All recordings are encrypted at rest and in transit. You retain full ownership and control of your footage at all times. CamGuard never shares or sells your data.",
+            },
+            {
+                q: "What happens after the free trial ends?",
+                a: "After 14 days, you're automatically moved to the free Starter plan — no charges, no credit card required upfront. You can upgrade whenever you're ready.",
+            },
+            {
+                q: "Is there a refund policy?",
+                a: "Yes. If you're not satisfied within the first 30 days of a paid plan, contact support for a full refund — no questions asked.",
+            },
+        ],
+
+        ctaTitle: "Start protecting your space today.",
+        ctaSubtitle: "No hardware. No setup fees. Ready in minutes.",
+        ctaPrimary: "Get started free",
+        ctaSecondary: "Download the app",
+    },
 
 
 }
