@@ -1726,6 +1726,98 @@ const ro = {
         ctaPrimary: "Începe gratuit",
         ctaSecondary: "Descarcă aplicația",
     },
+    // Add this block inside the `const ro = { ... }` object in your ro.ts file
+
+    download: {
+        badge: "Disponibil pe mobil",
+        heroTitle: "Monitorizează-ți camerele",
+        heroTitleItalic: "oriunde,",
+        heroTitleEnd: "oricând.",
+        heroSubtitle:
+            "Descarcă aplicația CamGuard și primește alerte instant, live feed și detecție AI direct pe telefon.",
+
+        appStore: {
+            label: "Descarcă din",
+            name: "App Store",
+        },
+        playStore: {
+            label: "Obține din",
+            name: "Google Play",
+        },
+
+        appStoreUrl: "https://apps.apple.com",
+        playStoreUrl: "https://play.google.com",
+
+        ratingLabel: "Rating 4.8",
+        reviewsLabel: "2.400+ recenzii",
+        freeLabel: "Descărcare gratuită",
+
+        featuresTitle: "Totul în buzunarul tău",
+        featuresSubtitle:
+            "Aplicația CamGuard îți pune controlul complet al sistemului de securitate în mână.",
+        features: [
+            {
+                icon: "bell",
+                title: "Alerte instant",
+                desc: "Fii notificat imediat ce o persoană este detectată pe oricare dintre camerele tale.",
+            },
+            {
+                icon: "video",
+                title: "Live Camera Feed",
+                desc: "Urmărește în timp real imaginile de la toate camerele conectate.",
+            },
+            {
+                icon: "moon",
+                title: "Detecție mod noapte",
+                desc: "Detecția AI funcționează non-stop, chiar și în condiții de lumină scăzută.",
+            },
+            {
+                icon: "history",
+                title: "Istoric evenimente",
+                desc: "Revizuiește detecțiile anterioare cu marcaje de timp și capturi de ecran.",
+            },
+            {
+                icon: "shield",
+                title: "Confidențialitate garantată",
+                desc: "Imaginile sunt criptate și procesate în siguranță. Tu rămâi în control.",
+            },
+            {
+                icon: "sliders",
+                title: "Zone personalizate",
+                desc: "Definește exact ce zone din câmpul camerei trebuie să declanșeze alerte.",
+            },
+        ],
+
+        stepsTitle: "Gata în câteva minute",
+        stepsSubtitle: "Fără hardware nou. Fără configurare complexă. Doar descarcă și conectează.",
+        steps: [
+            {
+                number: "01",
+                title: "Descarcă aplicația",
+                desc: "Instalează CamGuard din App Store sau Google Play gratuit.",
+            },
+            {
+                number: "02",
+                title: "Adaugă camera ta",
+                desc: "Conectează camera IP existentă folosind link-ul de acces sau stream-ul RTSP.",
+            },
+            {
+                number: "03",
+                title: "Începe monitorizarea",
+                desc: "Detecția AI se activează imediat. Primești alerte când este detectată o persoană.",
+            },
+        ],
+
+        compatibilityTitle: "Funcționează cu camerele tale existente",
+        compatibilitySubtitle:
+            "CamGuard se integrează cu cele mai populare branduri și standarde de camere IP.",
+        compatibleBrands: ["Hikvision", "Dahua", "Reolink", "ONVIF", "RTSP", "Axis"],
+
+        ctaTitle: "Gata să monitorizezi mai inteligent?",
+        ctaSubtitle: "Descarcă gratuit astăzi. Nu este necesar un card de credit.",
+        ctaAppStore: "App Store",
+        ctaPlayStore: "Google Play",
+    },
 
 }
 

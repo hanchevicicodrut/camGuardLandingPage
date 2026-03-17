@@ -1768,6 +1768,98 @@ const en = {
         ctaPrimary: "Get started free",
         ctaSecondary: "Download the app",
     },
+    // Add this block inside the `const en = { ... }` object in your en.ts file
+
+    download: {
+        badge: "Available on mobile",
+        heroTitle: "Monitor your cameras",
+        heroTitleItalic: "anywhere,",
+        heroTitleEnd: "anytime.",
+        heroSubtitle:
+            "Download the CamGuard app and get instant alerts, live camera feeds, and AI detection right on your phone.",
+
+        appStore: {
+            label: "Download on the",
+            name: "App Store",
+        },
+        playStore: {
+            label: "Get it on",
+            name: "Google Play",
+        },
+
+        appStoreUrl: "https://apps.apple.com",
+        playStoreUrl: "https://play.google.com",
+
+        ratingLabel: "4.8 rating",
+        reviewsLabel: "2,400+ reviews",
+        freeLabel: "Free to download",
+
+        featuresTitle: "Everything in your pocket",
+        featuresSubtitle:
+            "The CamGuard app puts full control of your security system in your hand.",
+        features: [
+            {
+                icon: "bell",
+                title: "Instant Alerts",
+                desc: "Get notified the moment a person is detected on any of your cameras.",
+            },
+            {
+                icon: "video",
+                title: "Live Camera Feed",
+                desc: "Watch live footage from all your connected cameras in real time.",
+            },
+            {
+                icon: "moon",
+                title: "Night Mode Detection",
+                desc: "AI detection works around the clock, even in low-light conditions.",
+            },
+            {
+                icon: "history",
+                title: "Event History",
+                desc: "Review past detections with timestamps and snapshots at any time.",
+            },
+            {
+                icon: "shield",
+                title: "Privacy First",
+                desc: "Your footage is encrypted and processed securely. You stay in control.",
+            },
+            {
+                icon: "sliders",
+                title: "Custom Zones",
+                desc: "Define exactly which areas of your camera feed should trigger alerts.",
+            },
+        ],
+
+        stepsTitle: "Up and running in minutes",
+        stepsSubtitle: "No new hardware. No complex setup. Just download and connect.",
+        steps: [
+            {
+                number: "01",
+                title: "Download the app",
+                desc: "Install CamGuard from the App Store or Google Play for free.",
+            },
+            {
+                number: "02",
+                title: "Add your camera",
+                desc: "Connect your existing IP camera using its access link or RTSP stream.",
+            },
+            {
+                number: "03",
+                title: "Start monitoring",
+                desc: "AI detection activates immediately. Receive alerts when a person is detected.",
+            },
+        ],
+
+        compatibilityTitle: "Works with your existing cameras",
+        compatibilitySubtitle:
+            "CamGuard integrates with most popular IP camera brands and standards.",
+        compatibleBrands: ["Hikvision", "Dahua", "Reolink", "ONVIF", "RTSP", "Axis"],
+
+        ctaTitle: "Ready to monitor smarter?",
+        ctaSubtitle: "Download free today. No credit card required.",
+        ctaAppStore: "App Store",
+        ctaPlayStore: "Google Play",
+    },
 
 
 }
