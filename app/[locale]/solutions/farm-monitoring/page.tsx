@@ -12,10 +12,12 @@ import FarmMonitoringCTA from "@/app/[locale]/solutions/farm-monitoring/sections
 export async function generateMetadata({
                                            params,
                                        }: {
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
 
-    const isRO = params.locale === "ro";
+    const { locale } = await params; // ✅ FIX
+
+    const isRO = locale === "ro";
 
     return {
         title: isRO
@@ -31,10 +33,12 @@ export async function generateMetadata({
 export default async function FarmMonitoringPage({
                                                      params,
                                                  }: {
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 }) {
 
-    const dict = await getDictionary(params.locale);
+    const { locale } = await params;
+
+    const dict = await getDictionary(locale);
 
     return (
         <main>
